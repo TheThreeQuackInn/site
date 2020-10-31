@@ -52,7 +52,7 @@ export default function NavItem({href, label, items}: Props) {
                                         : 'hover:text-gray-700 transition-colors duration-200',
                                 )}
                             >
-                                <a>{item.label}</a>
+                                <a href={item.href}>{item.label}</a>
                             </li>
                         </Link>
                     ))}
@@ -68,7 +68,7 @@ export default function NavItem({href, label, items}: Props) {
                     isActive && navStyles.active,
                 )}
             >
-                <a>{label}</a>
+                <a href={href}>{label}</a>
             </li>
         </Link>
     );
