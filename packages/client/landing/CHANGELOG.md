@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.2.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.2.1...@threequackinn/landing-v1.2.2) (2020-10-31)
+
+
+### Bug Fixes
+
+* **links:** add href to static links menu ([14dff88](https://github.com/TheThreeQuackInn/site/commit/14dff88e3fb7270b1a2384fb919db83d99bb6965))
+
 # [@threequackinn/landing-v1.2.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.2.0...@threequackinn/landing-v1.2.1) (2020-10-28)
 
 
