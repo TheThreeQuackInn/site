@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.3.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.2.2...@threequackinn/landing-v1.3.0) (2020-10-31)
+
+
+### Features
+
+* **axe-core:** add @axe-core/react voor accessibility audits ([#53](https://github.com/TheThreeQuackInn/site/issues/53)) ([77d1a09](https://github.com/TheThreeQuackInn/site/commit/77d1a09f093e34b304c237551cc2882ae66c78f2))
+
 # [@threequackinn/landing-v1.2.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.2.1...@threequackinn/landing-v1.2.2) (2020-10-31)
 
 
