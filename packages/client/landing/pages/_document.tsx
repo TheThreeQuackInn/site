@@ -9,9 +9,7 @@ export default class CustomDocument extends Document {
     render() {
         return (
             <Html lang="en">
-                <Head>
-                    <link href="/fonts/style.css" rel="stylesheet" />
-                </Head>
+                <Head />
                 <body>
                     <Main />
                     <NextScript />
