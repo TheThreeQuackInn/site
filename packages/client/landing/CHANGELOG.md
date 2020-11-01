@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.3.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.3.0...@threequackinn/landing-v1.3.1) (2020-11-01)
+
+
+### Bug Fixes
+
+* **style:** add container style add basic logo ([aa02a83](https://github.com/TheThreeQuackInn/site/commit/aa02a8364b8cdc3cbfce085212a05b4cac55c5f4))
+
 # [@threequackinn/landing-v1.3.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.2.2...@threequackinn/landing-v1.3.0) (2020-10-31)
 
 
