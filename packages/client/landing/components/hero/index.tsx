@@ -5,12 +5,7 @@ import heroStyles from './hero.module.css';
 
 export default function Hero() {
     return (
-        <div
-            className={classNames(
-                'flex items-center py-10 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8',
-                heroStyles.hero,
-            )}
-        >
+        <div className={classNames('flex items-center py-10 mx-auto max-w-screen-xl', heroStyles.hero)}>
             <div className="sm:text-center lg:text-left container mx-auto">
                 <h1 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
                     Conjure animals helper for
