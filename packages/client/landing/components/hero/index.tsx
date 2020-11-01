@@ -5,12 +5,7 @@ import heroStyles from './hero.module.css';
 
 export default function Hero() {
     return (
-        <div
-            className={classNames(
-                'flex items-center py-10 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8',
-                heroStyles.hero,
-            )}
-        >
+        <div className={classNames('flex items-center py-10 mx-auto max-w-screen-xl', heroStyles.hero)}>
             <div className="sm:text-center lg:text-left container mx-auto">
                 <h1 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
                     Conjure animals helper for
@@ -18,8 +13,8 @@ export default function Hero() {
                 </h1>
                 <p className="mt-3 text-base text-gray-100 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                     Managing the conjure animals spell during combat can be overwhelming and can take out the speed of
-                    combat. This tool aims to solve that problem by providing inputs for all the possible animals and
-                    tracking initiative
+                    combat. This tool aims to solve that problem by providing inputs for all the possible animals.
+                    Tracking HP, advantage, disadvantage and dice rolls.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div>

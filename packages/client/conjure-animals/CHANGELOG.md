@@ -1,3 +1,17 @@
+# [@threequackinn/conjure-animals-v1.1.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.1.1...@threequackinn/conjure-animals-v1.1.2) (2020-11-01)
+
+
+### Bug Fixes
+
+* **style:** add container style add basic logo ([aa02a83](https://github.com/TheThreeQuackInn/site/commit/aa02a8364b8cdc3cbfce085212a05b4cac55c5f4))
+
+# [@threequackinn/conjure-animals-v1.1.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.1.0...@threequackinn/conjure-animals-v1.1.1) (2020-10-31)
+
+
+### Bug Fixes
+
+* incorrect paths ([031a929](https://github.com/TheThreeQuackInn/site/commit/031a9293502f406834d172bbf83e16d7a816a81b))
+
 # [@threequackinn/conjure-animals-v1.1.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.0.0...@threequackinn/conjure-animals-v1.1.0) (2020-10-30)
 
 
