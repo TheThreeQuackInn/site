@@ -7,7 +7,7 @@ export default function ConjureAnimals() {
     return (
         <ConjureAnimalsProvider>
             <div className="flex flex-wrap items-center justify-center">
-                <div className=" p-2 md:p-5 md:flex flex-wrap md:flex-no-wrap md:items-center justify-center">
+                <div className="py-2 md:py-5 md:flex flex-wrap md:flex-no-wrap md:items-center justify-center">
                     <ConjureAnimalsApp />
                 </div>
                 <p className="text-gray-700 mb-3">
