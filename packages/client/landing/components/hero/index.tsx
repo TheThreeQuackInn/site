@@ -13,8 +13,8 @@ export default function Hero() {
                 </h1>
                 <p className="mt-3 text-base text-gray-100 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                     Managing the conjure animals spell during combat can be overwhelming and can take out the speed of
-                    combat. This tool aims to solve that problem by providing inputs for all the possible animals and
-                    tracking initiative
+                    combat. This tool aims to solve that problem by providing inputs for all the possible animals.
+                    Tracking HP, advantage, disadvantage and dice rolls.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div>
