@@ -1,11 +1,8 @@
 {
     "extends": "../../tsconfig.json",
     "compilerOptions": {
-        "module": "commonjs",
-        "declaration": true,
-        "emitDecoratorMetadata": true,
-        "outDir": "./dist",
-        "baseUrl": "./",
-        "incremental": true
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "esModuleInterop": true
     }
 }
