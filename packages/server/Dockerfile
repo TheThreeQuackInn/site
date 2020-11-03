@@ -13,4 +13,4 @@ RUN npx prisma generate
 
 COPY . .
 
-RUN yarn start:dev
+CMD [ "yarn", "start:dev" ]
