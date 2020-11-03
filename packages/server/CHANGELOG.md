@@ -1,3 +1,16 @@
+# [@threequackinn/server-v1.1.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.0.0...@threequackinn/server-v1.1.0) (2020-11-03)
+
+
+### Bug Fixes
+
+* **docker:** dev image and add User migration ([a4170e7](https://github.com/TheThreeQuackInn/site/commit/a4170e7474fd2c795e8b4b3c85c4d3bb15bf2b02))
+
+
+### Features
+
+* **server:** add graphql capabilities to nestjs ([d41b401](https://github.com/TheThreeQuackInn/site/commit/d41b4011eb4b1dd942a36668d14f226e66a0980d))
+* **server:** add user and create user query ([eee76e1](https://github.com/TheThreeQuackInn/site/commit/eee76e11525f622a648a294d43e495bb1b9faea6))
+
 # @threequackinn/server-v1.0.0 (2020-10-31)
 
 
