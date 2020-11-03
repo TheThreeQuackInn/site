@@ -1,12 +1,5 @@
 import {Query, Resolver, Args, Mutation} from '@nestjs/graphql';
-import {
-    User,
-    UserWhereUniqueInput,
-    FindManyUserArgs,
-    UserCreateInput,
-    UserUpdateArgs,
-    UserDeleteArgs,
-} from '@prisma/client';
+import {User, FindManyUserArgs, UserCreateInput, UserUpdateArgs, UserDeleteArgs} from '@prisma/client';
 import {User as UserModel} from './user.model';
 import {PrismaService} from '../prisma/prisma.service';
 
