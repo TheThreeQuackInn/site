@@ -6,7 +6,7 @@ services:
             context: .
             dockerfile: Dockerfile
         ports:
-            - 3000:3000
+            - 4000:4000
         depends_on:
             - postgres
         env_file:
@@ -15,7 +15,7 @@ services:
             - ./wait-for-it.sh:/wait_for_it.sh
 
     postgres:
-        image: postgres:12
+        image: postgres:13
         container_name: thethreequackinn-postgres
         restart: always
         ports:
