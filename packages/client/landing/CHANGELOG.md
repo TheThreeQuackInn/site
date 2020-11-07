@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.4.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.3.2...@threequackinn/landing-v1.4.0) (2020-11-07)
+
+
+### Features
+
+* **auth:** add authentication on the server ([2ef4a03](https://github.com/TheThreeQuackInn/site/commit/2ef4a0368ac7f5c4f6b7d20755375a4330d80ed4))
+
 # [@threequackinn/landing-v1.3.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.3.1...@threequackinn/landing-v1.3.2) (2020-11-03)
 
 
