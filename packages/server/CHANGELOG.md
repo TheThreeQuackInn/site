@@ -1,3 +1,10 @@
+# [@threequackinn/server-v1.2.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.1.0...@threequackinn/server-v1.2.0) (2020-11-07)
+
+
+### Features
+
+* **auth:** add authentication on the server ([2ef4a03](https://github.com/TheThreeQuackInn/site/commit/2ef4a0368ac7f5c4f6b7d20755375a4330d80ed4))
+
 # [@threequackinn/server-v1.1.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.0.0...@threequackinn/server-v1.1.0) (2020-11-03)
 
 
