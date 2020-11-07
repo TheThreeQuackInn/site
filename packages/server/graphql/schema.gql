@@ -2,34 +2,34 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type Mutation {
+  register(data: RegisterInput!): Token!
+}
+
+type Query {
+  profile: User!
+}
+
+input RegisterInput {
+  email: String!
+  password: String!
+  username: String!
+}
+
 type Token {
   """JWT access token"""
   accessToken: String!
 }
 
 type User {
-  id: String!
-  email: String!
-  username: String!
-  name: String
   createdAt: DateTime!
-}
-
-"""
-A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
-"""
-scalar DateTime
-
-type Query {
-  profile: User!
-}
-
-type Mutation {
-  register(data: RegisterInput!): Token!
-}
-
-input RegisterInput {
   email: String!
-  password: String!
+  id: String!
+  name: String
   username: String!
 }

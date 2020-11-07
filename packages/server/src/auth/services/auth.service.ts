@@ -75,4 +75,11 @@ export class AuthService {
         const accessToken = this.jwtService.sign(payload);
         return {accessToken};
     }
+
+    /**
+     * Check if userID exists
+     */
+    async validateUser(userId: string) {
+        return this.prismaService.user.findOne({where: {id: userId}});
+    }
 }
