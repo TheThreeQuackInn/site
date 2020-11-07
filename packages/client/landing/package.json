@@ -24,6 +24,18 @@
         "next-transpile-modules": "4.1.0",
         "postcss-preset-env": "6.7.0"
     },
+    "lint-staged": {
+        "*.{ts,tsx}": [
+            "eslint --cache --fix",
+            "prettier --write"
+        ]
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged",
+            "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+        }
+    },
     "release": {
         "branches": [
             "main"

@@ -1,17 +1,25 @@
 import {join} from 'path';
 import {Module} from '@nestjs/common';
-import {PrismaService} from '../prisma/prisma.service';
+import {ConfigModule, ConfigService} from '@nestjs/config';
 import {AppService} from './app.service';
 import {GraphQLModule} from '@nestjs/graphql';
-import {UserResolver} from '../user/user.resolver';
+import {AuthModule} from 'src/auth/auth.module';
+import {UserModule} from 'src/user/user.module';
 
 @Module({
     imports: [
-        GraphQLModule.forRoot({
-            autoSchemaFile: join(process.cwd(), 'src/graphql/schema.gql'),
-            playground: true,
+        ConfigModule.forRoot({isGlobal: true}),
+        GraphQLModule.forRootAsync({
+            useFactory: async () => ({
+                autoSchemaFile: join(process.cwd(), 'graphql/schema.gql'),
+                playground: true,
+                context: ({req}) => ({req}),
+            }),
+            inject: [ConfigService],
         }),
+        AuthModule,
+        UserModule,
     ],
-    providers: [AppService, PrismaService, UserResolver],
+    providers: [AppService],
 })
 export class AppModule {}
