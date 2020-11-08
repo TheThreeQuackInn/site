@@ -1,0 +1,33 @@
+{
+    "name": "@threequackinn/gm-screen",
+    "version": "1.0.0",
+    "description": "Helper for gamemaster during their sessions",
+    "license": "MIT",
+    "private": true,
+    "release": {
+        "branches": [
+            "main"
+        ],
+        "verifyConditions": [
+            "@semantic-release/github"
+        ],
+        "prepare": [
+            "@semantic-release/changelog",
+            "@semantic-release/npm",
+            {
+                "path": "@semantic-release/git",
+                "message": "chore(release): @threequackinn/conjure-animals v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+        ],
+        "publish": [
+            "@semantic-release/github"
+        ],
+        "success": []
+    },
+    "dependencies": {
+        "react-beautiful-dnd": "13.0.0"
+    },
+    "devDependencies": {
+        "@types/react-beautiful-dnd": "13.0.0"
+    }
+}

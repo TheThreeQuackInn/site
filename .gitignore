@@ -5,3 +5,4 @@ node_modules
 !example.env
 dist
 .DS_Store
+*.log
