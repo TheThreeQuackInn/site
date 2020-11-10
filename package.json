@@ -77,7 +77,7 @@
         "success": []
     },
     "resolutions": {
-        "mem": "4.3.0",
+        "mem": "8.0.0",
         "node-fetch": "2.6.1",
         "object-path": "0.11.5",
         "yargs-parser": "20.2.4"
