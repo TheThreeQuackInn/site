@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.4.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.4.0...@threequackinn/landing-v1.4.1) (2020-11-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tailwindcss to v2 ([5535ac0](https://github.com/TheThreeQuackInn/site/commit/5535ac02b7de8ef11de00b0194462d66a402d3d7))
+
 # [@threequackinn/landing-v1.4.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.3.2...@threequackinn/landing-v1.4.0) (2020-11-07)
 
 
