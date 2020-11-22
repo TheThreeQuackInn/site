@@ -1,3 +1,10 @@
+# [@threequackinn/client-common-v1.2.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.1.0...@threequackinn/client-common-v1.2.0) (2020-11-22)
+
+
+### Features
+
+* **darkmode:** add darkmode toggle ([b3f3ef6](https://github.com/TheThreeQuackInn/site/commit/b3f3ef604012aca238db92fce270c454a9b8c772))
+
 # [@threequackinn/client-common-v1.1.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.0.0...@threequackinn/client-common-v1.1.0) (2020-10-25)
 
 
