@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.5.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.4.1...@threequackinn/landing-v1.5.0) (2020-11-22)
+
+
+### Features
+
+* **darkmode:** add darkmode toggle ([b3f3ef6](https://github.com/TheThreeQuackInn/site/commit/b3f3ef604012aca238db92fce270c454a9b8c772))
+
 # [@threequackinn/landing-v1.4.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.4.0...@threequackinn/landing-v1.4.1) (2020-11-21)
 
 
