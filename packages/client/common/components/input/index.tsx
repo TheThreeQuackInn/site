@@ -14,11 +14,14 @@ type Props = {
 export default function Input({type, name, placeholder, label, onChange, max, min, value}: Props) {
     return (
         <div className="w-full">
-            <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-1" htmlFor={name}>
+            <label
+                className="block uppercase tracking-wide text-gray-700 dark:text-white text-xs font-bold mb-1"
+                htmlFor={name}
+            >
                 {label}
             </label>
             <input
-                className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-2 px-2 md:px-3 md:py-2 mb-3 leading-tight focus:outline-none focus:shadow-outline focus:bg-white"
+                className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-none focus:shadow-outline focus:bg-white dark:focus:bg-gray-500"
                 id={name}
                 name={name}
                 type={type}

@@ -50,7 +50,7 @@ export default function ConjureAnimals() {
 
     return Object.keys(formData).length ? (
         <Fragment>
-            <div className="mb-5 md:mb-0 md:flex flex-no-wrap md:flex-wrap md:w-1/2 w-full block">
+            <div className="mb-5 md:mb-0 md:flex flex-no-wrap md:flex-wrap md:w-1/2 w-full">
                 <Card title="Conjure Animals" className="w-full">
                     <ConjureAnimalsForm
                         animal={animal}
@@ -65,7 +65,7 @@ export default function ConjureAnimals() {
                     <ConjureAnimalsRolling num={num} animalName={animal} />
                 </Card>
             </div>
-            <div className="md:ml-5 mt-4 md:mt-5 flex md:flex-wrap md:w-1/2 w-full">
+            <div className="md:pl-5 mt-4 md:mt-5 flex md:flex-wrap md:w-1/2 w-full">
                 <ConjureAnimalsStats animal={animal} />
             </div>
         </Fragment>
