@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.5.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.5.0...@threequackinn/landing-v1.5.1) (2020-11-22)
+
+
+### Bug Fixes
+
+* **toggle:** add accessibilitu to toggle component ([2923337](https://github.com/TheThreeQuackInn/site/commit/2923337bf3d87f96524aaa7f3161a6311e51b9c6))
+
 # [@threequackinn/landing-v1.5.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.4.1...@threequackinn/landing-v1.5.0) (2020-11-22)
 
 
