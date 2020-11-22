@@ -1,3 +1,10 @@
+# [@threequackinn/conjure-animals-v1.2.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.1.2...@threequackinn/conjure-animals-v1.2.0) (2020-11-22)
+
+
+### Features
+
+* **darkmode:** add darkmode toggle ([b3f3ef6](https://github.com/TheThreeQuackInn/site/commit/b3f3ef604012aca238db92fce270c454a9b8c772))
+
 # [@threequackinn/conjure-animals-v1.1.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.1.1...@threequackinn/conjure-animals-v1.1.2) (2020-11-01)
 
 
