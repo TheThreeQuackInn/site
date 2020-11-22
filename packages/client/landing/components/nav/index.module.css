@@ -1,3 +1,14 @@
+.skipLink {
+    left: 50%;
+    position: absolute;
+    transform: translateY(-110%);
+    transition: transform 0.2s;
+}
+
+.skipLink:focus {
+    transform: translateY(0%);
+}
+
 .hoverMenu {
     position: relative;
     padding: 0.5rem;
