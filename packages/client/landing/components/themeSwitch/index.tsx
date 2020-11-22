@@ -13,11 +13,8 @@ function getThemePreference() {
     if (savedPreference && Object.values(Themes).includes(savedPreference)) return savedPreference;
 
     const darkModePreference = window.matchMedia('(prefers-color-scheme: dark)');
-    if (darkModePreference.media === 'not all') {
-        return Themes.Light;
-    }
-
-    if (darkModePreference.matches) return Themes.Dark;
+    if (darkModePreference.media === 'not all') return Themes.Light;
+    else if (darkModePreference.matches) return Themes.Dark;
     return Themes.Light;
 }
 
@@ -25,7 +22,7 @@ export default function ThemeSwitch() {
     const [theme, setTheme] = useState<'dark' | 'light' | null>(null);
 
     function handleOnClick() {
-        const newTheme = theme === 'dark' ? Themes.Light : Themes.Dark;
+        const newTheme = theme === Themes.Dark ? Themes.Light : Themes.Dark;
         setNewTheme(newTheme);
         localStorage.setItem('theme', newTheme);
     }
@@ -45,12 +42,12 @@ export default function ThemeSwitch() {
         setNewTheme(preferredTheme);
 
         window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', handleOnChange, {passive: true});
-
         return () => window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', handleOnChange);
     }, []);
 
     return theme ? (
         <Toggle
+            name="dark-mode"
             value={theme === Themes.Dark ? 1 : 0}
             onClick={handleOnClick}
             label="Dark mode"
