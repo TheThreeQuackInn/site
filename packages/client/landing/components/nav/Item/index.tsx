@@ -13,8 +13,9 @@ type Props = NavItem & {
     items?: Array<NavItem>;
 };
 
-const listItemClassName = 'inline-block lg:inline-block lg:mt-0 font-bold mr-4 cursor-pointer';
-const subMenu = 'shadow-lg p-3 bg-white rounded rounded-t-none';
+const listItemClassName =
+    'inline-block lg:inline-block lg:mt-0 font-bold mr-4 cursor-pointer dark:text-white dark:hover:text-gray-300';
+const subMenu = 'shadow-lg p-3 bg-white dark:bg-gray-700 rounded rounded-t-none';
 
 function handleOnClick(e: MouseEvent<HTMLLIElement>) {
     e.preventDefault();

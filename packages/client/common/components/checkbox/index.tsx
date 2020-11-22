@@ -28,7 +28,7 @@ export default function Checkbox({name, checked, onChange, label, onKeyEnter, cl
                 onChange={onChange}
                 onKeyPress={handleOnKeyPress}
             />
-            <span className="ml-1 text-gray-700">{label}</span>
+            <span className="ml-1 text-gray-700 dark:text-white">{label}</span>
         </label>
     );
 }

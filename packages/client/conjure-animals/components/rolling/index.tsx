@@ -93,7 +93,7 @@ export default function ConjureAnimalsRolling({num, animalName}: Props) {
                         </div>
                     ))
                 ) : (
-                    <p className="text-gray-700">To begin, select an animal and the number of animals to spawn.</p>
+                    <p>To begin, select an animal and the number of animals to spawn.</p>
                 )}
             </div>
             {num ? (

@@ -1,4 +1,7 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
+    darkMode: 'class',
     future: {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
@@ -6,6 +9,10 @@ module.exports = {
     purge: [],
     theme: {
         extend: {},
+        colors: {
+            white: colors.white,
+            gray: colors.blueGray,
+        },
         container: (theme) => ({
             padding: {
                 default: theme('spacing.4'),
