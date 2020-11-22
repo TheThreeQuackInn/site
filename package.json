@@ -16,7 +16,9 @@
         "semantic-release": "lerna exec --concurrency 1 \"yarn semantic-release -e semantic-release-monorepo\"",
         "start:server": "cd packages/server && docker-compose up",
         "start:client": "cd packages/client/landing && yarn dev",
-        "test": "jest"
+        "test": "jest",
+        "test:client": "jest packages/client",
+        "test:server": "jest packages/server"
     },
     "devDependencies": {
         "@semantic-release/changelog": "5.0.1",

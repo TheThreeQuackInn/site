@@ -5,13 +5,13 @@ exports[`Input renders correctly 1`] = `
   className="w-full"
 >
   <label
-    className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-1"
+    className="block uppercase tracking-wide text-gray-700 dark:text-white text-xs font-bold mb-1"
     htmlFor="test"
   >
     Test
   </label>
   <input
-    className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-2 px-2 md:px-3 md:py-2 mb-3 leading-tight focus:outline-none focus:shadow-outline focus:bg-white"
+    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-none focus:shadow-outline focus:bg-white dark:focus:bg-gray-500"
     id="test"
     name="test"
     onChange={[MockFunction]}
@@ -26,13 +26,13 @@ exports[`Input renders min/max correctly 1`] = `
   className="w-full"
 >
   <label
-    className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-1"
+    className="block uppercase tracking-wide text-gray-700 dark:text-white text-xs font-bold mb-1"
     htmlFor="test"
   >
     Test
   </label>
   <input
-    className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-2 px-2 md:px-3 md:py-2 mb-3 leading-tight focus:outline-none focus:shadow-outline focus:bg-white"
+    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-none focus:shadow-outline focus:bg-white dark:focus:bg-gray-500"
     id="test"
     max={8}
     min={0}
@@ -49,13 +49,13 @@ exports[`Input renders placeholder correctly 1`] = `
   className="w-full"
 >
   <label
-    className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-1"
+    className="block uppercase tracking-wide text-gray-700 dark:text-white text-xs font-bold mb-1"
     htmlFor="test"
   >
     Test
   </label>
   <input
-    className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-2 px-2 md:px-3 md:py-2 mb-3 leading-tight focus:outline-none focus:shadow-outline focus:bg-white"
+    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-none focus:shadow-outline focus:bg-white dark:focus:bg-gray-500"
     id="test"
     name="test"
     onChange={[MockFunction]}

@@ -15,7 +15,7 @@ exports[`Checkbox renders the checked state correctly 1`] = `
     type="checkbox"
   />
   <span
-    className="ml-1 text-gray-700"
+    className="ml-1 text-gray-700 dark:text-white"
   >
     Test
   </span>
@@ -37,7 +37,7 @@ exports[`Checkbox renders the unchecked state correctly 1`] = `
     type="checkbox"
   />
   <span
-    className="ml-1 text-gray-700"
+    className="ml-1 text-gray-700 dark:text-white"
   >
     Test
   </span>
