@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.6.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.5.1...@threequackinn/landing-v1.6.0) (2020-11-22)
+
+
+### Features
+
+* **skiplink:** add skip to content link ([6103362](https://github.com/TheThreeQuackInn/site/commit/610336245299d9a1e371bbb92413f229a16b1b48))
+
 # [@threequackinn/landing-v1.5.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.5.0...@threequackinn/landing-v1.5.1) (2020-11-22)
 
 
