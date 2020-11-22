@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {AppProps} from 'next/app';
 import Nav from '../components/nav';
 import '../css/index.css';
