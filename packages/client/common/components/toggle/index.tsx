@@ -5,11 +5,12 @@ type Props = {
     value?: 0 | 1;
     onClick?: () => void;
     label: string;
+    name: string;
     left?: ReactNode;
     right?: ReactNode;
 };
 
-export default function Toggle({value = 0, onClick, left, right, label}: Props) {
+export default function Toggle({value = 0, onClick, left, right, label, name}: Props) {
     const [val, setVal] = useState(value);
 
     function handleOnSetValue() {
@@ -17,6 +18,20 @@ export default function Toggle({value = 0, onClick, left, right, label}: Props) 
         setVal(value);
 
         onClick && onClick();
+    }
+
+    function handleOnKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
+        if (e.key === 'ArrowLeft') {
+            setVal(0);
+            onClick && onClick();
+        } else if (e.key === 'ArrowRight') {
+            setVal(1);
+            onClick && onClick();
+        } else if (e.key === 'Enter' || e.key === 'Space') {
+            const {checked} = e.currentTarget;
+            setVal(checked ? 0 : 1);
+            onClick && onClick();
+        }
     }
 
     useEffect(() => setVal(value), [value]);
@@ -31,7 +46,7 @@ export default function Toggle({value = 0, onClick, left, right, label}: Props) 
                 )}
             >
                 <label
-                    htmlFor="toggle"
+                    htmlFor={name}
                     className={classNames(
                         'absolute left-0 bg-white border-2 mb-2 w-6 h-6 rounded-full transition transform duration-100 ease-linear cursor-pointer',
                         val === 0 ? 'translate-x-0 border-gray-200' : 'translate-x-full border-gray-500',
@@ -41,10 +56,12 @@ export default function Toggle({value = 0, onClick, left, right, label}: Props) 
                 </label>
                 <input
                     type="checkbox"
-                    id="toggle"
-                    name="toggle"
-                    className="appearance-none w-full h-full active:outline-none focus:outline-none"
+                    id={name}
+                    name={name}
+                    className="appearance-none w-full h-full dark:focus:outline-white focus:outline-black"
                     onClick={handleOnSetValue}
+                    onKeyDown={handleOnKeyDown}
+                    tabIndex={0}
                 />
             </div>
             {right}

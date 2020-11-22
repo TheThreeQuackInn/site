@@ -25,6 +25,10 @@ module.exports = {
             },
         }),
     },
-    variants: {},
+    variants: {
+        extend: {
+            outline: ['dark'],
+        },
+    },
     plugins: [],
 };
