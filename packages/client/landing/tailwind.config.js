@@ -6,7 +6,9 @@ module.exports = {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
     },
-    purge: [],
+    purge: {
+        content: ['../**/*.tsx'],
+    },
     theme: {
         extend: {},
         colors: {
