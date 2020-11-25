@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.6.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.6.0...@threequackinn/landing-v1.6.1) (2020-11-25)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([2cd3f5e](https://github.com/TheThreeQuackInn/site/commit/2cd3f5ed695c4f6ec8b0f49e03bffbb1a1d6a4ee))
+
 # [@threequackinn/landing-v1.6.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.5.1...@threequackinn/landing-v1.6.0) (2020-11-22)
 
 
