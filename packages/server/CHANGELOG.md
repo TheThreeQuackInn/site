@@ -1,3 +1,13 @@
+# [@threequackinn/server-v1.2.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.1...@threequackinn/server-v1.2.2) (2020-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/config to v0.6.1 ([de42e4b](https://github.com/TheThreeQuackInn/site/commit/de42e4ba95c441f6f1ef91d51d8a7f7f7c2c1b81))
+* **deps:** update dependency @nestjs/graphql to v7.8.2 ([546e5d2](https://github.com/TheThreeQuackInn/site/commit/546e5d28341c064ad20b3c2cc1486f2cb6f56bce))
+* **deps:** update dependency @nestjs/passport to v7.1.5 ([f8fea30](https://github.com/TheThreeQuackInn/site/commit/f8fea303adceeada692238342c5cda202d1ba4c9))
+* **deps:** update dependency @nexus/schema to v0.19.1 ([46a3ae2](https://github.com/TheThreeQuackInn/site/commit/46a3ae2957a395b26f3c88a547a5fb0f3221c449))
+
 # [@threequackinn/server-v1.2.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.0...@threequackinn/server-v1.2.1) (2020-11-10)
 
 
