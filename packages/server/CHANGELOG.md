@@ -1,3 +1,10 @@
+# [@threequackinn/server-v1.2.3](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.2...@threequackinn/server-v1.2.3) (2020-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update nest monorepo to v7.5.5 ([f668485](https://github.com/TheThreeQuackInn/site/commit/f668485c43911e11779acebcb5bdc49bc11dfb81))
+
 # [@threequackinn/server-v1.2.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.1...@threequackinn/server-v1.2.2) (2020-11-25)
 
 
