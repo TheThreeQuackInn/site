@@ -1,5 +1,5 @@
 {
-    "extends": ["config:base"],
+    "extends": ["config:base", "every weekend"],
     "prHourlyLimit": 0,
     "prConcurrentLimit": 0,
     "rebaseWhen": "conflicted",
