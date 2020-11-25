@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.6.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.6.1...@threequackinn/landing-v1.6.2) (2020-11-25)
+
+
+### Bug Fixes
+
+* **darkmode:** get initial theme on startup app ([4579560](https://github.com/TheThreeQuackInn/site/commit/457956018e77fe99ea0433c4e23c40715a45fb52))
+
 # [@threequackinn/landing-v1.6.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.6.0...@threequackinn/landing-v1.6.1) (2020-11-25)
 
 
