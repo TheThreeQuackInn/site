@@ -9,7 +9,7 @@
     },
     "devDependencies": {
         "@types/classnames": "2.2.11",
-        "@types/react-test-renderer": "16.9.4",
+        "@types/react-test-renderer": "17.0.0",
         "react-test-renderer": "17.0.1"
     },
     "release": {
