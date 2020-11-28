@@ -16,7 +16,7 @@ function determineVariantClass(variant: ButtonVariant) {
         case 'primary':
             return 'text-white button-gradient';
         case 'outline':
-            return 'bg-transparent hover:bg-transparent';
+            return 'bg-transparent hover:bg-transparent dark:text-white';
         default:
             return '';
     }

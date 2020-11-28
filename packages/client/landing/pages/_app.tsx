@@ -18,9 +18,9 @@ if (process.env.NODE_ENV !== 'production' && typeof window !== 'undefined') {
 
 export default function App({Component, pageProps}: AppProps) {
     return (
-        <div className="bg-gray-100 min-h-screen">
+        <div className="bg-gray-100 dark:bg-gray-900 min-h-screen">
             <Nav />
-            <main>
+            <main id="main">
                 <Component {...pageProps} />
             </main>
         </div>

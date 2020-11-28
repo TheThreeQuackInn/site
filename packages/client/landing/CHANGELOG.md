@@ -1,3 +1,45 @@
+# [@threequackinn/landing-v1.6.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.6.1...@threequackinn/landing-v1.6.2) (2020-11-25)
+
+
+### Bug Fixes
+
+* **darkmode:** get initial theme on startup app ([4579560](https://github.com/TheThreeQuackInn/site/commit/457956018e77fe99ea0433c4e23c40715a45fb52))
+
+# [@threequackinn/landing-v1.6.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.6.0...@threequackinn/landing-v1.6.1) (2020-11-25)
+
+
+### Bug Fixes
+
+* **deps:** pin dependencies ([2cd3f5e](https://github.com/TheThreeQuackInn/site/commit/2cd3f5ed695c4f6ec8b0f49e03bffbb1a1d6a4ee))
+
+# [@threequackinn/landing-v1.6.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.5.1...@threequackinn/landing-v1.6.0) (2020-11-22)
+
+
+### Features
+
+* **skiplink:** add skip to content link ([6103362](https://github.com/TheThreeQuackInn/site/commit/610336245299d9a1e371bbb92413f229a16b1b48))
+
+# [@threequackinn/landing-v1.5.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.5.0...@threequackinn/landing-v1.5.1) (2020-11-22)
+
+
+### Bug Fixes
+
+* **toggle:** add accessibilitu to toggle component ([2923337](https://github.com/TheThreeQuackInn/site/commit/2923337bf3d87f96524aaa7f3161a6311e51b9c6))
+
+# [@threequackinn/landing-v1.5.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.4.1...@threequackinn/landing-v1.5.0) (2020-11-22)
+
+
+### Features
+
+* **darkmode:** add darkmode toggle ([b3f3ef6](https://github.com/TheThreeQuackInn/site/commit/b3f3ef604012aca238db92fce270c454a9b8c772))
+
+# [@threequackinn/landing-v1.4.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.4.0...@threequackinn/landing-v1.4.1) (2020-11-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency tailwindcss to v2 ([5535ac0](https://github.com/TheThreeQuackInn/site/commit/5535ac02b7de8ef11de00b0194462d66a402d3d7))
+
 # [@threequackinn/landing-v1.4.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.3.2...@threequackinn/landing-v1.4.0) (2020-11-07)
 
 

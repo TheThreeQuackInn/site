@@ -10,7 +10,7 @@ export default function ConjureAnimals() {
                 <div className="py-2 md:py-5 md:flex flex-wrap md:flex-no-wrap md:items-center justify-center">
                     <ConjureAnimalsApp />
                 </div>
-                <p className="text-gray-700 mb-3">
+                <p className="text-gray-700 dark:text-white mb-3">
                     Data used from
                     <Link
                         href="https://5e.tools/"

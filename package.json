@@ -15,29 +15,32 @@
     "scripts": {
         "semantic-release": "lerna exec --concurrency 1 \"yarn semantic-release -e semantic-release-monorepo\"",
         "start:server": "cd packages/server && docker-compose up",
-        "start:client": "cd packages/client/landing && yarn dev",
-        "test": "jest"
+        "start:client": "yarn workspace @threequackinn/landing dev",
+        "test": "jest",
+        "test:client": "jest packages/client",
+        "test:server": "jest packages/server",
+        "build:client": "yarn workspace @threequackinn/landing build"
     },
     "devDependencies": {
         "@semantic-release/changelog": "5.0.1",
         "@semantic-release/exec": "5.0.0",
         "@semantic-release/git": "9.0.0",
         "@types/jest": "26.0.15",
-        "@typescript-eslint/eslint-plugin": "4.6.1",
-        "@typescript-eslint/parser": "4.6.1",
+        "@typescript-eslint/eslint-plugin": "4.8.2",
+        "@typescript-eslint/parser": "4.8.2",
         "cz-conventional-changelog": "3.3.0",
-        "eslint": "7.12.1",
+        "eslint": "7.14.0",
         "eslint-config-prettier": "6.15.0",
         "eslint-plugin-prettier": "3.1.4",
         "husky": "4.3.0",
-        "jest": "26.6.2",
+        "jest": "26.6.3",
         "lerna": "3.22.1",
-        "lint-staged": "10.5.1",
-        "prettier": "2.1.2",
-        "semantic-release": "17.2.2",
+        "lint-staged": "10.5.2",
+        "prettier": "2.2.0",
+        "semantic-release": "17.2.3",
         "semantic-release-monorepo": "7.0.3",
-        "ts-jest": "26.4.3",
-        "typescript": "4.0.5"
+        "ts-jest": "26.4.4",
+        "typescript": "4.1.2"
     },
     "lint-staged": {
         "*.{ts,tsx}": [
@@ -77,9 +80,10 @@
         "success": []
     },
     "resolutions": {
-        "mem": "4.3.0",
+        "mem": "8.0.0",
         "node-fetch": "2.6.1",
         "object-path": "0.11.5",
-        "yargs-parser": "13.1.2"
+        "y18n": "5.0.5",
+        "yargs-parser": "20.2.4"
     }
 }

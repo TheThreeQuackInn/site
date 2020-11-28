@@ -5,7 +5,7 @@ import heroStyles from './hero.module.css';
 
 export default function Hero() {
     return (
-        <div className={classNames('flex items-center py-10 mx-auto max-w-screen-xl', heroStyles.hero)}>
+        <div className={classNames('flex items-center py-10 mx-auto', heroStyles.hero)}>
             <div className="sm:text-center lg:text-left container mx-auto">
                 <h1 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
                     Conjure animals helper for
@@ -19,7 +19,7 @@ export default function Hero() {
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div>
                         <Link href="/conjure-animals">
-                            <a className="button-gradient w-full flex items-center justify-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                            <a className="button-gradient w-full flex items-center justify-center px-6 py-3 text-base leading-6 font-medium rounded-md text-white focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                                 Take me to the tool
                             </a>
                         </Link>
@@ -29,7 +29,7 @@ export default function Hero() {
                             <a
                                 target="_blank"
                                 rel="norefferer nofollow"
-                                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-400 hover:text-white focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                                className="w-full flex items-center justify-center px-8 py-3 text-base leading-6 font-medium rounded-md text-gray-400 hover:text-white focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                             >
                                 Art credit - Huussii
                             </a>

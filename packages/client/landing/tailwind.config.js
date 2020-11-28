@@ -1,11 +1,20 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
+    darkMode: 'class',
     future: {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
     },
-    purge: [],
+    purge: {
+        content: ['../**/*.tsx'],
+    },
     theme: {
         extend: {},
+        colors: {
+            white: colors.white,
+            gray: colors.blueGray,
+        },
         container: (theme) => ({
             padding: {
                 default: theme('spacing.4'),
@@ -18,6 +27,10 @@ module.exports = {
             },
         }),
     },
-    variants: {},
+    variants: {
+        extend: {
+            outline: ['dark'],
+        },
+    },
     plugins: [],
 };

@@ -1,25 +1,27 @@
 {
     "name": "@threequackinn/landing",
-    "version": "1.4.0",
+    "version": "1.6.2",
     "private": true,
     "scripts": {
-        "build": "next build",
+        "build": "next build && next export",
         "dev": "next dev",
         "start": "next start"
     },
     "dependencies": {
         "@threequackinn/client-common": "*",
         "@threequackinn/conjure-animals": "*",
+        "autoprefixer": "9.8.6",
         "next": "10.0.1",
+        "postcss": "7.0.35",
         "react": "17.0.1",
         "react-dom": "17.0.1",
-        "tailwindcss": "1.9.6"
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat"
     },
     "devDependencies": {
-        "@axe-core/react": "4.0.0",
-        "@types/react": "16.9.55",
-        "@types/react-dom": "16.9.9",
-        "next-compose-plugins": "2.2.0",
+        "@axe-core/react": "4.1.0",
+        "@types/react": "17.0.0",
+        "@types/react-dom": "17.0.0",
+        "next-compose-plugins": "2.2.1",
         "next-plugin-custom-babel-config": "1.0.4",
         "next-transpile-modules": "4.1.0",
         "postcss-preset-env": "6.7.0"
