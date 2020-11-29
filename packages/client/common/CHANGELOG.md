@@ -1,3 +1,10 @@
+# [@threequackinn/client-common-v1.3.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.2.1...@threequackinn/client-common-v1.3.0) (2020-11-29)
+
+
+### Features
+
+* **nav:** add main nav ([#125](https://github.com/TheThreeQuackInn/site/issues/125)) ([b25223c](https://github.com/TheThreeQuackInn/site/commit/b25223c09627be2fa18ffdf384ecd785f3cf1a78))
+
 # [@threequackinn/client-common-v1.2.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.2.0...@threequackinn/client-common-v1.2.1) (2020-11-22)
 
 
