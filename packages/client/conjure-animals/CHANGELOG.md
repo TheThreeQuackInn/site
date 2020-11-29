@@ -1,3 +1,10 @@
+# [@threequackinn/conjure-animals-v1.3.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.3.0...@threequackinn/conjure-animals-v1.3.1) (2020-11-29)
+
+
+### Bug Fixes
+
+* **conjureanimals:** check if num animals exceeds max CR ([5756191](https://github.com/TheThreeQuackInn/site/commit/57561914b6c41da9cf816f4c367c87f1e0ce8e0a))
+
 # [@threequackinn/conjure-animals-v1.3.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.2.0...@threequackinn/conjure-animals-v1.3.0) (2020-11-29)
 
 
