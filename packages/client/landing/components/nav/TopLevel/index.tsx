@@ -1,7 +1,7 @@
 import React, {KeyboardEvent} from 'react';
 import Link from 'next/link';
 import {useRouter} from 'next/router';
-import DropdownIcon from '@threequackinn/client-common/components/icons/Dropdown';
+import ChevronDown from '@threequackinn/client-common/components/icons/ChevronDown';
 import classNames from 'classnames';
 import SecondLevelNavItem from '../SecondLevel';
 import toggleAriaExpanded from '../helpers/toggleAriaExpanded';
@@ -34,7 +34,7 @@ export default function TopLevelNavItem({label, href, children}: NavItem) {
                     onKeyDown={children.length ? toggleAriaExpanded : undefined}
                 >
                     {label}
-                    {children.length ? <DropdownIcon /> : null}
+                    {children.length ? <ChevronDown /> : null}
                 </a>
                 {children.length ? (
                     <ul className="dropdown-menu top-full left-0 w-full z-10 absolute hidden dark:bg-gray-700 bg-gray-50 text-gray-900 dark:text-white shadow-md">

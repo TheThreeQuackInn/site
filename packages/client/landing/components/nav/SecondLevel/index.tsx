@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import ChevronRight from '@threequackinn/client-common/components/icons/ChevronRight';
 import {NavItem} from '../TopLevel';
 import toggleAriaExpanded from '../helpers/toggleAriaExpanded';
 
@@ -14,11 +15,12 @@ export default function SecondLevelNavItem({label, href, children}: NavItem) {
             >
                 <a
                     href={href}
-                    className="p-2 w-full block focus:outline-none relative"
+                    className="p-2 w-full focus:outline-none relative flex items-center justify-between"
                     onClick={(e) => href === '#' && e.preventDefault()}
                     onKeyDown={children.length ? toggleAriaExpanded : undefined}
                 >
                     {label}
+                    {children.length ? <ChevronRight /> : null}
                 </a>
                 {children.length ? (
                     <ul className="sub-menu absolute min-w-max left-full top-0 hidden dark:bg-gray-700 bg-gray-50 shadow-md">
@@ -30,7 +32,7 @@ export default function SecondLevelNavItem({label, href, children}: NavItem) {
                                 >
                                     <a
                                         href={child.href}
-                                        className="p-2 w-full block focus:outline-none relative"
+                                        className="p-2 w-full focus:outline-none relative flex items-center justify-between"
                                         onKeyDown={toggleAriaExpanded}
                                     >
                                         {child.label}

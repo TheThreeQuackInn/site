@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function DropdownIcon() {
+export default function ChevronDownIcon() {
     return (
         <svg
             className="h-5 w-5 inline-block"
