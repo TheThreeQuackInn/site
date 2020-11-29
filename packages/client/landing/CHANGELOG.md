@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.8.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.8.0...@threequackinn/landing-v1.8.1) (2020-11-29)
+
+
+### Bug Fixes
+
+* **document:** add themes to body tag ([a03066e](https://github.com/TheThreeQuackInn/site/commit/a03066e0d0c45b3eedcfc544535bfbcb739105ae))
+
 # [@threequackinn/landing-v1.8.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.7.0...@threequackinn/landing-v1.8.0) (2020-11-29)
 
 
