@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.7.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.6.2...@threequackinn/landing-v1.7.0) (2020-11-29)
+
+
+### Features
+
+* **nav:** add main nav ([#125](https://github.com/TheThreeQuackInn/site/issues/125)) ([b25223c](https://github.com/TheThreeQuackInn/site/commit/b25223c09627be2fa18ffdf384ecd785f3cf1a78))
+
 # [@threequackinn/landing-v1.6.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.6.1...@threequackinn/landing-v1.6.2) (2020-11-25)
 
 
