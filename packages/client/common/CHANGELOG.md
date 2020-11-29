@@ -1,3 +1,10 @@
+# [@threequackinn/client-common-v1.4.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.3.0...@threequackinn/client-common-v1.4.0) (2020-11-29)
+
+
+### Features
+
+* **accessibility:** add basic accessibility markers ([5a65194](https://github.com/TheThreeQuackInn/site/commit/5a65194882680146cd67a73578e6e171b0619d0d))
+
 # [@threequackinn/client-common-v1.3.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.2.1...@threequackinn/client-common-v1.3.0) (2020-11-29)
 
 
