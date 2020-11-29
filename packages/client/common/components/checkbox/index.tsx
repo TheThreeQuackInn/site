@@ -23,7 +23,7 @@ export default function Checkbox({name, checked, onChange, label, onKeyEnter, cl
                 name={name}
                 id={name}
                 type="checkbox"
-                className="form-checkbox focus:outline-none focus:shadow-outline"
+                className="form-checkbox focus:outline-black dark:focus:outline-white"
                 checked={checked}
                 onChange={onChange}
                 onKeyPress={handleOnKeyPress}

@@ -11,7 +11,7 @@ type Props = {
 export default function Link({target, href, title, rel, label}: Props) {
     return (
         <a
-            className="transition-colors duration-300 mx-1 font-medium hover:underline link"
+            className="transition-colors duration-300 mx-1 font-medium hover:underline link focus:outline-black dark:focus:outline-white"
             href={href}
             target={target}
             title={title}

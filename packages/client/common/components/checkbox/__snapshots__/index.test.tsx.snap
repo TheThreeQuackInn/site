@@ -7,7 +7,7 @@ exports[`Checkbox renders the checked state correctly 1`] = `
 >
   <input
     checked={true}
-    className="form-checkbox focus:outline-none focus:shadow-outline"
+    className="form-checkbox focus:outline-black dark:focus:outline-white"
     id="test"
     name="test"
     onChange={[MockFunction]}
@@ -29,7 +29,7 @@ exports[`Checkbox renders the unchecked state correctly 1`] = `
 >
   <input
     checked={false}
-    className="form-checkbox focus:outline-none focus:shadow-outline"
+    className="form-checkbox focus:outline-black dark:focus:outline-white"
     id="test"
     name="test"
     onChange={[MockFunction]}

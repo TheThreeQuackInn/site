@@ -27,7 +27,7 @@ export default function Button({onClick, label, className, disabled, variant}: P
         <button
             disabled={disabled}
             className={classNames(
-                'duration-300 ease-in-out rounded focus:outline-none focus:shadow-outline',
+                'rounded focus:outline-black dark:focus:outline-white',
                 determineVariantClass(variant),
                 className,
             )}

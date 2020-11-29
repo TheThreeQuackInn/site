@@ -11,7 +11,7 @@ exports[`Input renders correctly 1`] = `
     Test
   </label>
   <input
-    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-none focus:shadow-outline focus:bg-white dark:focus:bg-gray-500"
+    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-black dark:focus:outline-white"
     id="test"
     name="test"
     onChange={[MockFunction]}
@@ -32,7 +32,7 @@ exports[`Input renders min/max correctly 1`] = `
     Test
   </label>
   <input
-    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-none focus:shadow-outline focus:bg-white dark:focus:bg-gray-500"
+    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-black dark:focus:outline-white"
     id="test"
     max={8}
     min={0}
@@ -55,7 +55,7 @@ exports[`Input renders placeholder correctly 1`] = `
     Test
   </label>
   <input
-    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-none focus:shadow-outline focus:bg-white dark:focus:bg-gray-500"
+    className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-black dark:focus:outline-white"
     id="test"
     name="test"
     onChange={[MockFunction]}
