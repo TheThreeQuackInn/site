@@ -7,10 +7,11 @@ export default function Nav() {
     return (
         <Fragment>
             <a
+                id="skip-link"
+                href="#main"
                 className={
                     'skip-link dark:text-white text-black dark:bg-gray-500 bg-gray-100 p-2 dark:outline-white outline-black'
                 }
-                href="#main"
             >
                 Skip to content
             </a>
