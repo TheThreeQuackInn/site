@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.8.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.7.0...@threequackinn/landing-v1.8.0) (2020-11-29)
+
+
+### Features
+
+* **accessibility:** add basic accessibility markers ([5a65194](https://github.com/TheThreeQuackInn/site/commit/5a65194882680146cd67a73578e6e171b0619d0d))
+
 # [@threequackinn/landing-v1.7.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.6.2...@threequackinn/landing-v1.7.0) (2020-11-29)
 
 
