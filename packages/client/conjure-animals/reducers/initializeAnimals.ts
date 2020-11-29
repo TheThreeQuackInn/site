@@ -9,9 +9,9 @@ export function calculateMaxAnimals(animal: AnimalStats) {
     const split = animal.cr.split('/');
     const result = split.length > 1 ? parseInt(split[0], 10) / parseInt(split[1], 10) : parseInt(split[0], 10); // Only calculate fractions if the CR dictates
 
-    if (result === 0) return 8;
-
-    return MAX_CR / result;
+    const maxAnimals = MAX_CR / result;
+    if (result === 0 || maxAnimals > 8) return 8;
+    return maxAnimals;
 }
 
 export function initializeAnimals({animalName, num, animal}: InitAction) {

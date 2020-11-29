@@ -15,7 +15,7 @@ function determineNum(amount: string) {
 }
 
 export default function ConjureAnimals() {
-    const urlParams = new URLSearchParams();
+    const urlParams = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : undefined);
     const animalParam = urlParams.get('beast');
     const amountParam = urlParams.get('amount');
     const amount = amountParam || '0';
