@@ -1,3 +1,10 @@
+# [@threequackinn/conjure-animals-v1.3.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.2.0...@threequackinn/conjure-animals-v1.3.0) (2020-11-29)
+
+
+### Features
+
+* **accessibility:** add basic accessibility markers ([5a65194](https://github.com/TheThreeQuackInn/site/commit/5a65194882680146cd67a73578e6e171b0619d0d))
+
 # [@threequackinn/conjure-animals-v1.2.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.1.2...@threequackinn/conjure-animals-v1.2.0) (2020-11-22)
 
 
