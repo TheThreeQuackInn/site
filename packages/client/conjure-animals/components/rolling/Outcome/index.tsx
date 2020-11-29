@@ -14,10 +14,12 @@ export default function RollOutcome({animal}: Props) {
 
     return (
         <p className="mb-1">
-            <span className="inline-block mr-1 text-gray-700">Rolled:</span>
-            <span className="inline-block mr-1 text-gray-700 font-bold">{roll.outcome}</span>
+            <span className="inline-block mr-1 text-gray-700 dark:text-white">Rolled:</span>
+            <span className="inline-block mr-1 text-gray-700 dark:text-white font-bold">{roll.outcome}</span>
             {roll.type === RollType.Plain ? null : (
-                <span className="inline-block mr-1 text-gray-700">{`(${roll.dice.join(' and ')})`}</span>
+                <span className="inline-block mr-1 text-gray-700 dark:text-white">{`(${roll.dice.join(
+                    ' and ',
+                )})`}</span>
             )}
         </p>
     );

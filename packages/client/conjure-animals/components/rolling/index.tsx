@@ -86,7 +86,7 @@ export default function ConjureAnimalsRolling({num, animalName}: Props) {
                                     onClick={() => handleRollIndivual(key)}
                                     label="Roll"
                                     variant="outline"
-                                    className="text-gray-700 px-0 py-0 hover:underline focus:underline focus:outline-none focus:shadow-none"
+                                    className="text-gray-700 px-0 py-0 hover:underline focus:underline"
                                 />
                             </div>
                             <RollOutcome animal={animals[key]} />

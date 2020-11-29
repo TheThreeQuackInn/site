@@ -16,20 +16,20 @@ export default function Hero() {
                     combat. This tool aims to solve that problem by providing inputs for all the possible animals.
                     Tracking HP, advantage, disadvantage and dice rolls.
                 </p>
-                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start items-center">
                     <div>
                         <Link href="/conjure-animals">
-                            <a className="button-gradient w-full flex items-center justify-center px-6 py-3 text-base leading-6 font-medium rounded-md text-white focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                            <a className="button-gradient w-full flex items-center justify-center px-6 py-3 text-base leading-6 font-medium rounded-md text-white focus:outline-black dark:focus:outline-white md:py-4 md:text-lg md:px-10">
                                 Take me to the tool
                             </a>
                         </Link>
                     </div>
-                    <div className="rounded-md">
+                    <div className="rounded-md ml-8">
                         <Link href="https://www.deviantart.com/huussii/art/Exiled-Druids-of-Lornwood-622851414">
                             <a
                                 target="_blank"
                                 rel="norefferer nofollow"
-                                className="w-full flex items-center justify-center px-8 py-3 text-base leading-6 font-medium rounded-md text-gray-400 hover:text-white focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                                className="w-full flex items-center justify-center text-base leading-6 font-medium rounded-md text-gray-400 hover:text-white focus:outline-black dark:focus:outline-white md:text-lg focus:text-white"
                             >
                                 Art credit - Huussii
                             </a>

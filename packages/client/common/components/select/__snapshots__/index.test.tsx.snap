@@ -14,10 +14,11 @@ exports[`Select renders correctly 1`] = `
     className="relative"
   >
     <select
-      className="block appearance-none w-full bg-gray-200 dark:bg-gray-500 text-gray-700 dark:text-white py-2 px-2 md:px-3 md:py-2 dark:focus:bg-gray-500 rounded leading-tight focus:outline-none focus:shadow-outline focus:bg-white focus:border-gray-500 "
+      className="block appearance-none w-full bg-gray-200 dark:bg-gray-500 text-gray-700 dark:text-white py-2 px-2 md:px-3 md:py-2 focus:outline-black dark:focus:outline-white rounded leading-tight focus:border-gray-500"
       id="test"
       name="test"
       onChange={[MockFunction]}
+      tabIndex={0}
       value=""
     >
       <option
@@ -43,12 +44,15 @@ exports[`Select renders correctly 1`] = `
       className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-white"
     >
       <svg
-        className="fill-current h-4 w-4"
+        className="h-5 w-5 inline-block"
+        fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+          clipRule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          fillRule="evenodd"
         />
       </svg>
     </div>
@@ -70,10 +74,11 @@ exports[`Select renders value correctly 1`] = `
     className="relative"
   >
     <select
-      className="block appearance-none w-full bg-gray-200 dark:bg-gray-500 text-gray-700 dark:text-white py-2 px-2 md:px-3 md:py-2 dark:focus:bg-gray-500 rounded leading-tight focus:outline-none focus:shadow-outline focus:bg-white focus:border-gray-500 "
+      className="block appearance-none w-full bg-gray-200 dark:bg-gray-500 text-gray-700 dark:text-white py-2 px-2 md:px-3 md:py-2 focus:outline-black dark:focus:outline-white rounded leading-tight focus:border-gray-500"
       id="test"
       name="test"
       onChange={[MockFunction]}
+      tabIndex={0}
       value="test-2"
     >
       <option
@@ -99,12 +104,15 @@ exports[`Select renders value correctly 1`] = `
       className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700 dark:text-white"
     >
       <svg
-        className="fill-current h-4 w-4"
+        className="h-5 w-5 inline-block"
+        fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+          clipRule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          fillRule="evenodd"
         />
       </svg>
     </div>

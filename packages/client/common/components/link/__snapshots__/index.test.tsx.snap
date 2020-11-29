@@ -2,7 +2,7 @@
 
 exports[`Link renders correctly 1`] = `
 <a
-  className="transition-colors duration-300 mx-1 font-medium hover:underline link"
+  className="transition-colors duration-300 mx-1 font-medium hover:underline link focus:outline-black dark:focus:outline-white"
   href="#"
   target="_blank"
 >
