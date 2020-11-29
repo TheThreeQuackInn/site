@@ -1,24 +1,9 @@
 import Document, {Html, Head, Main, NextScript, DocumentContext} from 'next/document';
 
-const setPreferredTheme = `
-    (function() {
-        function getThemePreference() {
-            if (typeof window === 'undefined') return null;
-            var themes = ['light', 'dark'];
-            var savedPreference = localStorage.getItem('theme');
-            if (savedPreference && themes.includes(savedPreference)) return savedPreference;
-
-            var darkModePreference = window.matchMedia('(prefers-color-scheme: dark)');
-            if (darkModePreference.media === 'not all') return 'light';
-            else if (darkModePreference.matches) return 'dark';
-            return 'light';
-        }
-
-        var colorMode = getThemePreference();
-        var root = document.documentElement;
-        root.setAttribute('class', colorMode);
-  })()
-`;
+/**
+ * Set theme preference on startup by blocking render we negate the initial flash
+ */
+const setPreferredTheme = `(function() {function getThemePreference(){if("undefined"==typeof window)return null;var e=localStorage.getItem("theme");if(e&&["light","dark"].includes(e))return e;var t=window.matchMedia("(prefers-color-scheme: dark)");return"not all"===t.media?"light":t.matches?"dark":"light"}var colorMode=getThemePreference(),root=document.documentElement;root.setAttribute("class",colorMode);})()`;
 
 export default class CustomDocument extends Document {
     static async getInitialProps(ctx: DocumentContext) {
@@ -31,6 +16,7 @@ export default class CustomDocument extends Document {
             <Html lang="en">
                 <Head />
                 <body>
+                    <noscript>Javascript is needed to make this app work properly.</noscript>
                     <script dangerouslySetInnerHTML={{__html: setPreferredTheme}}></script>
                     <Main />
                     <NextScript />
