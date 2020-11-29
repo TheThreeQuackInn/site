@@ -1,4 +1,4 @@
-import React, {KeyboardEvent} from 'react';
+import React from 'react';
 import Link from 'next/link';
 import {useRouter} from 'next/router';
 import ChevronDown from '@threequackinn/client-common/components/icons/ChevronDown';
