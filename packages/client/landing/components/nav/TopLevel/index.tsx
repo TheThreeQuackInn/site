@@ -24,7 +24,11 @@ export default function TopLevelNavItem({label, href, children}: NavItem) {
                     'text-black dark:text-white relative mr-2 inline-flex',
                 )}
             >
-                <a href={href} className="p-2 dark:focus:outline-white focus:outline-black">
+                <a
+                    href={href}
+                    className="p-2 dark:focus:outline-white focus:outline-black"
+                    onClick={(e) => href === '#' && e.preventDefault()}
+                >
                     {label}
                     {children.length ? <DropdownIcon /> : null}
                 </a>

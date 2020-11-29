@@ -6,7 +6,7 @@ export default function SecondLevelNavItem({label, href, children}: NavItem) {
     return (
         <Link href={href}>
             <li key={label} className="relative hover:bg-gray-200 dark:hover:bg-gray-500">
-                <a href={href} className="p-2 w-full block">
+                <a href={href} className="p-2 w-full block" onClick={(e) => href === '#' && e.preventDefault()}>
                     {label}
                 </a>
                 {children.length ? (
