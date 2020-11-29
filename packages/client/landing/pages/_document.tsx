@@ -15,7 +15,7 @@ export default class CustomDocument extends Document {
         return (
             <Html lang="en">
                 <Head />
-                <body>
+                <body className="dark:bg-gray-900 bg-gray-100">
                     <noscript>Javascript is needed to make this app work properly.</noscript>
                     <script dangerouslySetInnerHTML={{__html: setPreferredTheme}}></script>
                     <Main />
