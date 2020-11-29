@@ -2,6 +2,7 @@ import React from 'react';
 import {AppProps} from 'next/app';
 import Nav from '../components/nav';
 import '../css/index.css';
+import '../components/nav/nav.scss';
 
 /**
  * Not the prettiest solution, axe makes use of window variables, which cannot be handled by nextjs

@@ -1,0 +1,14 @@
+[
+    {"label": "Home", "href": "/", "children": []},
+    {
+        "label": "Player helpers",
+        "href": "#",
+        "children": [
+            {
+                "label": "Druids",
+                "href": "#",
+                "children": [{"label": "Conjure animals", "href": "/conjure-animals", "children": []}]
+            }
+        ]
+    }
+]
