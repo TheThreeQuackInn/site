@@ -1,3 +1,11 @@
+# [@threequackinn/landing-v1.8.3](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.8.2...@threequackinn/landing-v1.8.3) (2021-01-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency autoprefixer to v10 ([d702d62](https://github.com/TheThreeQuackInn/site/commit/d702d621d0c373cc4adc563d086ead53b42278f9))
+* **deps:** update dependency postcss to v8 ([03d282d](https://github.com/TheThreeQuackInn/site/commit/03d282d5155d93fb0a1b7aeabef9fdfaa507674c))
+
 # [@threequackinn/landing-v1.8.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.8.1...@threequackinn/landing-v1.8.2) (2021-01-01)
 
 
