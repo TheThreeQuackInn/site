@@ -1,3 +1,10 @@
+# [@threequackinn/server-v1.2.4](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.3...@threequackinn/server-v1.2.4) (2021-01-01)
+
+
+### Bug Fixes
+
+* packages/server/package.json to reduce vulnerabilities ([9a1a476](https://github.com/TheThreeQuackInn/site/commit/9a1a476b095508de9400e2fea865eff28fcac1f2))
+
 # [@threequackinn/server-v1.2.3](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.2...@threequackinn/server-v1.2.3) (2020-11-25)
 
 
