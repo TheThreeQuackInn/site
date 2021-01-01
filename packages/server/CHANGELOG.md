@@ -1,3 +1,10 @@
+# [@threequackinn/server-v1.2.6](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.5...@threequackinn/server-v1.2.6) (2021-01-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency apollo-server-express to v2.19.1 ([6852db9](https://github.com/TheThreeQuackInn/site/commit/6852db9f3914f05561b670149b26a650488426e9))
+
 # [@threequackinn/server-v1.2.5](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.4...@threequackinn/server-v1.2.5) (2021-01-01)
 
 
