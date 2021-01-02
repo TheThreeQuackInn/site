@@ -34,4 +34,16 @@ jobs:
                   aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
                   aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
                   aws-region: eu-west-2
-            - run: aws s3 sync ./packages/client/landing/out s3://thethreequckinn-site
+            - name: Sync to S3
+              run: aws s3 sync ./packages/client/landing/out s3://thethreequckinn-site
+            - name: Remove .html extensions
+              run: find ./packages/client/landing/out -type f -name '*.html' | while read HTMLFILE; do
+                BASENAME=${HTMLFILE##*/};
+                FILENAME=${BASENAME%.*};
+                if [[ "$FILENAME" != "index" ]];
+                then
+                  aws s3 cp s3://thethreequckinn-site/${BASENAME} s3://thethreequckinn-site/${FILENAME};
+                fi
+              done
+
+
