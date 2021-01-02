@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.9.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.8.3...@threequackinn/landing-v1.9.0) (2021-01-02)
+
+
+### Features
+
+* **home:** add little descriptive text ([32a1502](https://github.com/TheThreeQuackInn/site/commit/32a15027cde5a73c66771fbd5e6776cb7f9a1292))
+
 # [@threequackinn/landing-v1.8.3](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.8.2...@threequackinn/landing-v1.8.3) (2021-01-01)
 
 
