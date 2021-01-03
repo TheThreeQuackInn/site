@@ -3,6 +3,7 @@ import {AppProps} from 'next/app';
 import Nav from '../components/nav';
 import '../css/index.css';
 import '../components/nav/nav.scss';
+import ThemeProvider from '../components/providers/Theme';
 
 /**
  * Not the prettiest solution, axe makes use of window variables, which cannot be handled by nextjs
@@ -19,11 +20,13 @@ if (process.env.NODE_ENV !== 'production' && typeof window !== 'undefined') {
 
 export default function App({Component, pageProps}: AppProps) {
     return (
-        <div className="bg-gray-100 dark:bg-gray-900 min-h-screen">
-            <Nav />
-            <main id="main">
-                <Component {...pageProps} />
-            </main>
-        </div>
+        <ThemeProvider>
+            <div className="bg-gray-100 dark:bg-gray-900 min-h-screen">
+                <Nav />
+                <main id="main">
+                    <Component {...pageProps} />
+                </main>
+            </div>
+        </ThemeProvider>
     );
 }

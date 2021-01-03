@@ -13,7 +13,19 @@ module.exports = {
         extend: {},
         colors: {
             white: colors.white,
-            gray: colors.blueGray,
+            gray: colors.gray,
+            primary: {
+                default: '#11978C',
+                100: '#83F1E8',
+                200: '#55ECE0',
+                300: '#27E7D7',
+                400: '#16C5B7',
+                500: '#11978C',
+                600: '#0C6A62',
+                700: '#073C37',
+                800: '#020E0D',
+                900: '#000000',
+            },
         },
         container: (theme) => ({
             padding: {
