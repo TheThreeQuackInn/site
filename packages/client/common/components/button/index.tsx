@@ -5,7 +5,7 @@ type ButtonVariant = 'primary' | 'outline';
 
 type Props = {
     onClick: () => void;
-    label?: string;
+    label: string;
     className?: string;
     variant: ButtonVariant;
     disabled?: boolean;

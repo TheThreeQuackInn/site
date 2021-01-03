@@ -2,7 +2,7 @@ import React from 'react';
 import {create} from 'react-test-renderer';
 import Container from './';
 
-describe('Checkbox', () => {
+describe('Container', () => {
     it('renders correctly without className', () => {
         const component = create(
             <Container>

@@ -2,7 +2,7 @@ import React from 'react';
 import {create} from 'react-test-renderer';
 import Separator from './';
 
-describe('Checkbox', () => {
+describe('Separator', () => {
     it('renders correctly without className', () => {
         const component = create(<Separator />);
         expect(component).toMatchSnapshot();
