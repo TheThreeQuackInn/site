@@ -1,12 +1,13 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import Toggle from '@threequackinn/client-common/components/toggle';
+import useTheme from '../../hooks/theme';
 
-enum Themes {
+export enum Themes {
     Light = 'light',
     Dark = 'dark',
 }
 
-function getThemePreference() {
+export function getThemePreference() {
     if (typeof window === 'undefined') return null;
 
     const savedPreference: any = localStorage.getItem('theme');
@@ -19,7 +20,7 @@ function getThemePreference() {
 }
 
 export default function ThemeSwitch() {
-    const [theme, setTheme] = useState<'dark' | 'light' | null>(null);
+    const {theme, setTheme} = useTheme();
 
     function handleOnClick() {
         const newTheme = theme === Themes.Dark ? Themes.Light : Themes.Dark;

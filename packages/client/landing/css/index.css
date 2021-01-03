@@ -21,3 +21,10 @@
 .link:focus {
     -webkit-text-fill-color: #11998e;
 }
+
+@media screen and (max-width: 512px) {
+    .container {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}

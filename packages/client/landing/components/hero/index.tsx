@@ -24,7 +24,7 @@ export default function Hero() {
                             </a>
                         </Link>
                     </div>
-                    <div className="rounded-md ml-8">
+                    <div className="rounded-md sm:ml-8 mt-4 sm:mt-0">
                         <Link href="https://www.deviantart.com/huussii/art/Exiled-Druids-of-Lornwood-622851414">
                             <a
                                 target="_blank"
