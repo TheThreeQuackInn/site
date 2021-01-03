@@ -4,12 +4,11 @@ import classNames from 'classnames';
 type ButtonVariant = 'primary' | 'outline';
 
 type Props = {
-    onClick?: () => void;
+    onClick: () => void;
     label?: string;
     className?: string;
     variant: ButtonVariant;
     disabled?: boolean;
-    icon?: ReactNode;
 };
 
 function determineVariantClass(variant: ButtonVariant) {
@@ -23,7 +22,7 @@ function determineVariantClass(variant: ButtonVariant) {
     }
 }
 
-export default function Button({onClick, label, className, disabled, variant, icon}: Props) {
+export default function Button({onClick, label, className, disabled, variant}: Props) {
     return (
         <button
             disabled={disabled}
@@ -35,7 +34,7 @@ export default function Button({onClick, label, className, disabled, variant, ic
             type="button"
             onClick={onClick}
         >
-            {label || icon}
+            {label}
         </button>
     );
 }

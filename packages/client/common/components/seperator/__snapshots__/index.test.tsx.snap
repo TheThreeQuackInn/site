@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders correctly with className 1`] = `
+<div
+  className="h-1 button-gradient w-1/2"
+/>
+`;
+
+exports[`Checkbox renders correctly without className 1`] = `
+<div
+  className="h-1 button-gradient"
+/>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders correctly with className 1`] = `
+<div
+  className="container mx-auto flex pb-1"
+>
+  <p>
+    Children
+  </p>
+</div>
+`;
+
+exports[`Checkbox renders correctly without className 1`] = `
+<div
+  className="container mx-auto flex"
+>
+  <p>
+    Children
+  </p>
+</div>
+`;
