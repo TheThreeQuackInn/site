@@ -52,7 +52,7 @@
         "@nestjs/testing": "7.6.5",
         "@prisma/cli": "2.13.1",
         "@types/bcrypt": "3.0.0",
-        "@types/express": "4.17.9",
+        "@types/express": "4.17.11",
         "@types/node": "13.13.38",
         "@types/passport": "1.0.4",
         "@types/passport-jwt": "3.0.3",
