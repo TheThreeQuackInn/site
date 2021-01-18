@@ -1,3 +1,10 @@
+# [@threequackinn/server-v1.2.7](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.6...@threequackinn/server-v1.2.7) (2021-01-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nexus/schema to v0.20.1 ([607e82e](https://github.com/TheThreeQuackInn/site/commit/607e82e13d8c14b70d252a40739ee177609c1461))
+
 # [@threequackinn/server-v1.2.6](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.5...@threequackinn/server-v1.2.6) (2021-01-01)
 
 
