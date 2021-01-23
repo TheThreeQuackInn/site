@@ -1,3 +1,10 @@
+# [@threequackinn/server-v1.2.8](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.7...@threequackinn/server-v1.2.8) (2021-01-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/config to v0.6.2 ([99ed932](https://github.com/TheThreeQuackInn/site/commit/99ed9329b543012bc2c3e41bf8ae44fdea2abff1))
+
 # [@threequackinn/server-v1.2.7](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.6...@threequackinn/server-v1.2.7) (2021-01-18)
 
 
