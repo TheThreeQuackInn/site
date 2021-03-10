@@ -1,3 +1,10 @@
+# [@threequackinn/client-common-v1.4.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.4.0...@threequackinn/client-common-v1.4.1) (2021-03-10)
+
+
+### Bug Fixes
+
+* **layout:** update homepage and input background colors ([fc974cb](https://github.com/TheThreeQuackInn/site/commit/fc974cb846b91e4ec0604e68e88d74ade419628e))
+
 # [@threequackinn/client-common-v1.4.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.3.0...@threequackinn/client-common-v1.4.0) (2020-11-29)
 
 
