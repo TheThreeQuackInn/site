@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.9.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.9.1...@threequackinn/landing-v1.9.2) (2021-03-10)
+
+
+### Bug Fixes
+
+* **layout:** update homepage and input background colors ([fc974cb](https://github.com/TheThreeQuackInn/site/commit/fc974cb846b91e4ec0604e68e88d74ade419628e))
+
 # [@threequackinn/landing-v1.9.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.9.0...@threequackinn/landing-v1.9.1) (2021-01-23)
 
 
