@@ -22,7 +22,7 @@ export default function Select(props: Props) {
             </label>
             <div className="relative">
                 <select
-                    className="block appearance-none w-full bg-gray-200 dark:bg-gray-500 text-gray-700 dark:text-white py-2 px-2 md:px-3 md:py-2 focus:outline-black dark:focus:outline-white rounded leading-tight focus:border-gray-500"
+                    className="block appearance-none w-full bg-gray-100 dark:bg-gray-500 text-gray-700 dark:text-white py-2 px-2 md:px-3 md:py-2 focus:outline-black dark:focus:outline-white rounded leading-tight focus:border-gray-500"
                     id={name}
                     name={name}
                     value={value}

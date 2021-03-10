@@ -71,9 +71,9 @@ export default function HomePage() {
                             with new technologies and this seemed a perfect fit for learning those new technologies.
                         </p>
                         <p>
-                            If you have got a good idea for a feature, feel free to contact me either via
-                            <a className={linkClassName} href="mailto:features@thethreequackinn.com">
-                                email
+                            If you have got a good idea for a feature, feel free to join the
+                            <a className={linkClassName} href="https://discord.gg/GzERnkMsqu" target="_blank">
+                                Discord server (invite link)
                             </a>
                             or message me on
                             <a
@@ -84,7 +84,9 @@ export default function HomePage() {
                             >
                                 Reddit
                             </a>
-                            . If you happen to be a developer and would like to contribute, please go to the
+                            . Another way is to contribute your time to make these tools a reality! If you happen to be
+                            a developer or simply would like to take a look at the open issues / feature planning,
+                            please go to the
                             <a
                                 className={linkClassName}
                                 href="https://github.com/TheThreeQuackInn/site/"
@@ -93,7 +95,7 @@ export default function HomePage() {
                             >
                                 Github page
                             </a>
-                            .
+                            . Together we can create awesome tools.
                         </p>
                     </div>
                 </Container>

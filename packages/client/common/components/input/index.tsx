@@ -21,7 +21,7 @@ export default function Input({type, name, placeholder, label, onChange, max, mi
                 {label}
             </label>
             <input
-                className="block w-full bg-gray-200 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-black dark:focus:outline-white"
+                className="block w-full bg-gray-100 dark:bg-gray-500 dark:text-white text-gray-700 rounded p-2 md:px-3 md:py-2 mb-3 focus:outline-black dark:focus:outline-white"
                 id={name}
                 name={name}
                 type={type}
