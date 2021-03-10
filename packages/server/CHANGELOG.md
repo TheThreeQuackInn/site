@@ -1,3 +1,11 @@
+# [@threequackinn/server-v1.2.10](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.9...@threequackinn/server-v1.2.10) (2021-03-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/config to v0.6.3 ([b6eb09f](https://github.com/TheThreeQuackInn/site/commit/b6eb09fe54e1ddf456396f602a369656dc8e8bed))
+* **deps:** update dependency graphql to v15.5.0 ([321f654](https://github.com/TheThreeQuackInn/site/commit/321f654e554a132110fc9759bff35c3d9e66570c))
+
 # [@threequackinn/server-v1.2.9](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.8...@threequackinn/server-v1.2.9) (2021-01-23)
 
 
