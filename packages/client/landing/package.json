@@ -10,9 +10,9 @@
     "dependencies": {
         "@threequackinn/client-common": "*",
         "@threequackinn/conjure-animals": "*",
-        "autoprefixer": "10.2.3",
-        "next": "10.0.4",
-        "postcss": "8.2.2",
+        "autoprefixer": "10.2.5",
+        "next": "10.0.8",
+        "postcss": "8.2.8",
         "react": "17.0.1",
         "react-dom": "17.0.1",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat"
