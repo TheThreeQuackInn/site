@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.9.4](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.9.3...@threequackinn/landing-v1.9.4) (2021-03-11)
+
+
+### Bug Fixes
+
+* **logo:** update logo ([76789a0](https://github.com/TheThreeQuackInn/site/commit/76789a0c8523c4ca188f1ea2045261a2f1b01934))
+
 # [@threequackinn/landing-v1.9.3](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.9.2...@threequackinn/landing-v1.9.3) (2021-03-10)
 
 
