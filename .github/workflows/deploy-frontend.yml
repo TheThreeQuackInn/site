@@ -4,9 +4,6 @@ on:
     repository_dispatch:
         types:
             - semantic-release
-        paths:
-            - packages/client/**
-            - .github/workflows/deploy-frontend.yml
 
 jobs:
     build:
