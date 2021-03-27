@@ -53,7 +53,7 @@
         "@prisma/cli": "2.15.0",
         "@types/bcrypt": "3.0.0",
         "@types/express": "4.17.9",
-        "@types/node": "13.13.45",
+        "@types/node": "13.13.48",
         "@types/passport": "1.0.6",
         "@types/passport-jwt": "3.0.5",
         "@types/supertest": "2.0.10",
