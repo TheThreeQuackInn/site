@@ -11,7 +11,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
               with:
-                  token: ${{secrets.SEMANTIC_RELEASE_GH_TOKEN}}
+                  token: ${{secrets.GH_TOKEN_SEMANTIC_RELEASE}}
                   persist-credentials: false
             - uses: actions/setup-node@v2
               with:
