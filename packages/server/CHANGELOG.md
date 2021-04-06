@@ -1,3 +1,11 @@
+# [@threequackinn/server-v1.2.11](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.10...@threequackinn/server-v1.2.11) (2021-04-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency bcrypt to v5.0.1 ([7fca2ff](https://github.com/TheThreeQuackInn/site/commit/7fca2ff634e336cf8dc23322343de028a6bd86f7))
+* **deps:** update nest monorepo to v7.6.14 ([26c4aa1](https://github.com/TheThreeQuackInn/site/commit/26c4aa1433e963b3bc10273735e8388b6329c592))
+
 # [@threequackinn/server-v1.2.10](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.9...@threequackinn/server-v1.2.10) (2021-03-10)
 
 
