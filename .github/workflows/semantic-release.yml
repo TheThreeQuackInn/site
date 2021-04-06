@@ -10,10 +10,12 @@ jobs:
         if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
         steps:
             - uses: actions/checkout@v2
+              with:
+                  token: ${{secrets.SEMANTIC_RELEASE_GH_TOKEN}}
+                  persist-credentials: false
             - uses: actions/setup-node@v2
               with:
                   node-version: 12.x
-                  persist-credentials: false
             - name: Get yarn cache
               id: yarn-cache
               run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -32,5 +34,4 @@ jobs:
               env:
                   CI: true
                   NODE_AUTH_TOKEN: ${{secrets.NODE_AUTH_TOKEN}}
-                  GH_TOKEN: ${{ secrets.GH_TOKEN_SEMANTIC_RELEASE }}
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN_SEMANTIC_RELEASE }}
