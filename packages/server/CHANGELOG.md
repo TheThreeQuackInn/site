@@ -1,3 +1,11 @@
+# [@threequackinn/server-v1.2.12](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.11...@threequackinn/server-v1.2.12) (2021-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency apollo-server-express to v2.22.2 ([0fe1842](https://github.com/TheThreeQuackInn/site/commit/0fe1842ad793c5c497631a6baa447429f4890461))
+* **deps:** update dependency graphql-tools to v7.0.4 ([cbfb9f6](https://github.com/TheThreeQuackInn/site/commit/cbfb9f63cb1b9da3333def2fb60a4151c342f6c9))
+
 # [@threequackinn/server-v1.2.11](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.10...@threequackinn/server-v1.2.11) (2021-04-06)
 
 
