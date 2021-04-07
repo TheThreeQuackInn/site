@@ -1,3 +1,10 @@
+# [@threequackinn/server-v1.2.13](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.12...@threequackinn/server-v1.2.13) (2021-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rxjs to v6.6.7 ([f3387a3](https://github.com/TheThreeQuackInn/site/commit/f3387a347bca988dc0bae990ebcf6029b9316f4b))
+
 # [@threequackinn/server-v1.2.12](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.11...@threequackinn/server-v1.2.12) (2021-04-07)
 
 
