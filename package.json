@@ -80,7 +80,7 @@
         "success": []
     },
     "resolutions": {
-        "mem": "8.0.0",
+        "mem": "8.1.0",
         "node-fetch": "2.6.1",
         "object-path": "0.11.5",
         "y18n": "5.0.5",
