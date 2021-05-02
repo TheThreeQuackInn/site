@@ -1,7 +1,7 @@
 import React, {createContext, ReactNode, useEffect, useState} from 'react';
 import {useQuery} from '@apollo/client';
 import slugify from '../../libs/slugify';
-import {Monsters_monsters as Beast} from '../../libs/graphql/types';
+import {Monsters, Monsters_monsters as Beast} from '../../libs/graphql/types';
 import {AnimalStats} from '../../components/stats/stats';
 import GET_BEASTS_QUERY from './getBeastsQuery';
 
@@ -72,7 +72,7 @@ function normalizeProficiencies(beast: Beast) {
 }
 
 export function ConjureAnimalsProvider({children}: Props) {
-    const {data, loading} = useQuery(GET_BEASTS_QUERY);
+    const {data, loading} = useQuery<Monsters>(GET_BEASTS_QUERY);
     const [animals, setAnimals] = useState<{[key: string]: AnimalStats}>({});
     const [formData, setFormData] = useState<FormData>([]);
 
@@ -83,8 +83,10 @@ export function ConjureAnimalsProvider({children}: Props) {
     useEffect(() => {
         if (!loading) {
             const {animals, formData} = initAnimalData(data?.monsters || []);
-            setAnimals(animals);
-            setFormData(formData);
+            if (formData.length) {
+                setAnimals(animals);
+                setFormData(formData);
+            }
         }
     }, [loading]);
 

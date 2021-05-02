@@ -5,10 +5,6 @@ type Props = {
     stats: AnimalStats;
 };
 
-function determineAlignment(alignments: string) {
-    return alignments;
-}
-
 export default function StatsAlignment({stats}: Props) {
-    return stats.alignment ? <span className="italic lowercase">, {determineAlignment(stats.alignment)}</span> : null;
+    return stats.alignment ? <span className="italic lowercase">, {stats.alignment}</span> : null;
 }
