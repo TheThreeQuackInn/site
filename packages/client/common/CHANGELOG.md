@@ -1,3 +1,10 @@
+# [@threequackinn/client-common-v1.5.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.4.1...@threequackinn/client-common-v1.5.0) (2021-05-02)
+
+
+### Features
+
+* **apollo:** add apollo to conjure-animals, remove 5e.tools ([ecada60](https://github.com/TheThreeQuackInn/site/commit/ecada60a692340dc3a7ac4b248e94293f7aa53ad))
+
 # [@threequackinn/client-common-v1.4.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.4.0...@threequackinn/client-common-v1.4.1) (2021-03-10)
 
 
