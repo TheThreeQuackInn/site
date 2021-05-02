@@ -27,7 +27,7 @@
         "next-plugin-custom-babel-config": "1.0.4",
         "next-transpile-modules": "6.4.1",
         "postcss-preset-env": "6.7.0",
-        "sass": "1.32.8"
+        "sass": "1.32.12"
     },
     "lint-staged": {
         "*.{ts,tsx}": [
