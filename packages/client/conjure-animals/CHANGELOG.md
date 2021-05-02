@@ -1,3 +1,10 @@
+# [@threequackinn/conjure-animals-v1.4.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.3.1...@threequackinn/conjure-animals-v1.4.0) (2021-05-02)
+
+
+### Features
+
+* **apollo:** add apollo to conjure-animals, remove 5e.tools ([ecada60](https://github.com/TheThreeQuackInn/site/commit/ecada60a692340dc3a7ac4b248e94293f7aa53ad))
+
 # [@threequackinn/conjure-animals-v1.3.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.3.0...@threequackinn/conjure-animals-v1.3.1) (2020-11-29)
 
 
