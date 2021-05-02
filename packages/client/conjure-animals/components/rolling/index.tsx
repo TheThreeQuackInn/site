@@ -50,51 +50,47 @@ export default function ConjureAnimalsRolling({num, animalName}: Props) {
         dispatch({type: ActionTypes.init, animalName, animal, num});
     }, [num, animalName, getAnimalData]);
 
-    return (
+    return animalKeys.length ? (
         <Fragment>
             <div className={classNames('flex flex-wrap', animalKeys.length ? '-mx-2' : '')}>
-                {animalKeys.length ? (
-                    animalKeys.map((key, i) => (
-                        <div key={key} className="w-1/2 px-2">
-                            <Input
-                                type="number"
-                                name={key}
-                                onChange={handleOnHpChange}
-                                label={`${animals[key].name} ${i + 1}`}
-                                value={animals[key].hp}
-                                min={0}
-                                max={animalsObject[animalName].hp.average}
+                {animalKeys.map((key, i) => (
+                    <div key={key} className="w-1/2 px-2">
+                        <Input
+                            type="number"
+                            name={key}
+                            onChange={handleOnHpChange}
+                            label={`${animals[key].name} ${i + 1}`}
+                            value={animals[key].hp}
+                            min={0}
+                            max={animalsObject[animalName].hp}
+                        />
+                        <div className="my-1 flex flex-1 flex-wrap">
+                            <Checkbox
+                                className="w-full md:w-auto"
+                                label="Advantage"
+                                name={`${key}_advantage`}
+                                checked={animals[key].advantage}
+                                onChange={handleAdvantageDisadvantage}
+                                onKeyEnter={handleOnKeyEnter}
                             />
-                            <div className="my-1 flex flex-1 flex-wrap">
-                                <Checkbox
-                                    className="w-full md:w-auto"
-                                    label="Advantage"
-                                    name={`${key}_advantage`}
-                                    checked={animals[key].advantage}
-                                    onChange={handleAdvantageDisadvantage}
-                                    onKeyEnter={handleOnKeyEnter}
-                                />
-                                <Checkbox
-                                    className="w-full md:w-auto"
-                                    label="Disadvantage"
-                                    name={`${key}_disadvantage`}
-                                    checked={animals[key].disadvantage}
-                                    onChange={handleAdvantageDisadvantage}
-                                    onKeyEnter={handleOnKeyEnter}
-                                />
-                                <Button
-                                    onClick={() => handleRollIndivual(key)}
-                                    label="Roll"
-                                    variant="outline"
-                                    className="text-gray-700 px-0 py-0 hover:underline focus:underline"
-                                />
-                            </div>
-                            <RollOutcome animal={animals[key]} />
+                            <Checkbox
+                                className="w-full md:w-auto"
+                                label="Disadvantage"
+                                name={`${key}_disadvantage`}
+                                checked={animals[key].disadvantage}
+                                onChange={handleAdvantageDisadvantage}
+                                onKeyEnter={handleOnKeyEnter}
+                            />
+                            <Button
+                                onClick={() => handleRollIndivual(key)}
+                                label="Roll"
+                                variant="outline"
+                                className="text-gray-700 px-0 py-0 hover:underline focus:underline"
+                            />
                         </div>
-                    ))
-                ) : (
-                    <p>To begin, select an animal and the number of animals to spawn.</p>
-                )}
+                        <RollOutcome animal={animals[key]} />
+                    </div>
+                ))}
             </div>
             {num ? (
                 <div className="flex items-center justify-between mt-5">
@@ -107,5 +103,7 @@ export default function ConjureAnimalsRolling({num, animalName}: Props) {
                 </div>
             ) : null}
         </Fragment>
+    ) : (
+        <p>To begin, select an animal and the number of animals to spawn.</p>
     );
 }

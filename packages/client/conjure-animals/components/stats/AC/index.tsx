@@ -6,10 +6,10 @@ type Props = {
 };
 
 export default function StatsAC({stats}: Props) {
-    return stats.ac.ac ? (
+    return stats.ac ? (
         <p>
             <span className="font-bold mr-1">Armor Class</span>
-            {stats.ac.ac} {stats.ac.from ? `(${stats.ac.from})` : null}
+            {stats.ac}
         </p>
     ) : null;
 }

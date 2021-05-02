@@ -12,6 +12,7 @@ export default function ConjureAnimalsPage() {
                 <meta name="description" content="A tool to help druids manage the Conjure Animals spell" />
             </AppHead>
             <Container>
+                <h1 className="sr-only">Conjure animals</h1>
                 <ConjureAnimals />
             </Container>
         </Fragment>

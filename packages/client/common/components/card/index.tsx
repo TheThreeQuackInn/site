@@ -16,7 +16,7 @@ export default function Card({title, children, className}: Props) {
             ])}
         >
             <div className="px-3 pt-2 pb-3 md:p-5 relative box-border w-full">
-                <h4 className="font-bold text-xl mb-2 dark:text-white">{title}</h4>
+                <p className="font-bold text-xl mb-2 dark:text-white">{title}</p>
                 <div className="dark:text-white text-gray-700">{children}</div>
             </div>
         </div>

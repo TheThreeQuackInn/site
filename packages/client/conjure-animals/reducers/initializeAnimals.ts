@@ -4,19 +4,15 @@ import {AnimalData, InitAction} from './types';
 export const MAX_CR = 2;
 
 export function calculateMaxAnimals(animal: AnimalStats) {
-    if (!animal) return 0;
-
-    const split = animal.cr.split('/');
-    const result = split.length > 1 ? parseInt(split[0], 10) / parseInt(split[1], 10) : parseInt(split[0], 10); // Only calculate fractions if the CR dictates
-
-    const maxAnimals = MAX_CR / result;
-    if (result === 0 || maxAnimals > 8) return 8;
-    return maxAnimals;
+    if (!animal || animal.cr === null) return 0;
+    const maxAnimals = MAX_CR / animal.cr;
+    if (animal.cr === 0 || maxAnimals > 8) return 8;
+    return Math.ceil(maxAnimals);
 }
 
 export function initializeAnimals({animalName, num, animal}: InitAction) {
     if (!animal || !window) return {};
-    const cr = parseInt(animal.cr.toString(), 10);
+    const cr = animal.cr ? parseInt(animal.cr.toString(), 10) : 0;
     const maxAnimals = calculateMaxAnimals(animal);
     const params = new URLSearchParams(window.location.search);
     const amountParam = params.get('amount');
@@ -30,8 +26,8 @@ export function initializeAnimals({animalName, num, animal}: InitAction) {
         if (currentIndex > maxAnimals || (cr === 0 && currentIndex > 8)) break;
 
         animals[`${animalName}_${i}`] = {
-            name: animal.name,
-            hp: animal.hp.average + '',
+            name: animal.name || '',
+            hp: animal.hp + '',
             roll: null,
             advantage: false,
             disadvantage: false,

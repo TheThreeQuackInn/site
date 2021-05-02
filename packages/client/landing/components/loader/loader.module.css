@@ -1,0 +1,38 @@
+.loading span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0.6em;
+    height: 0.6em;
+    margin: 0.19em;
+    background: #11998e;
+    border-radius: 0.6em;
+    animation: loading 1s infinite alternate;
+}
+/*
+   * Dots Colors
+   * Smarter targeting vs nth-of-type?
+   */
+.loading span:nth-of-type(2) {
+    background: #2dc286;
+    animation-delay: 0.1s;
+}
+.loading span:nth-of-type(3) {
+    background: #2cbc87;
+    animation-delay: 0.3s;
+}
+.loading span:nth-of-type(4) {
+    background: #38ef7d;
+    animation-delay: 0.5s;
+}
+/*
+   * Animation keyframes
+   * Use transition opacity instead of keyframes?
+   */
+@keyframes loading {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

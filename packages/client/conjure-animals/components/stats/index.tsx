@@ -24,7 +24,7 @@ export default function ConjureAnimalsStats({animal}: Props) {
     const stats = animals[animal];
 
     return stats && Object.keys(stats).length ? (
-        <Card className="flex flex-wrap w-full" title={stats.name}>
+        <Card className="flex flex-wrap w-full" title={stats.name || ''}>
             <StatsSize stats={stats} />
             <StatsAlignment stats={stats} />
             <StatsAC stats={stats} />

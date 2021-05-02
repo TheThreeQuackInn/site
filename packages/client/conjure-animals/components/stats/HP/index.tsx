@@ -8,7 +8,7 @@ type Props = {
 export default function StatsHP({stats}: Props) {
     return (
         <p>
-            <span className="font-bold">Hit Points</span> {stats.hp.average} ({stats.hp.formula})
+            <span className="font-bold">Hit Points</span> {stats.hp}
         </p>
     );
 }
