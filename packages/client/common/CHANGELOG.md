@@ -1,3 +1,10 @@
+# [@threequackinn/client-common-v1.5.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.5.0...@threequackinn/client-common-v1.5.1) (2021-05-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency classnames to v2.3.1 ([a33d1e6](https://github.com/TheThreeQuackInn/site/commit/a33d1e6a4a36cb156f4e12fe7152a783a47d690e))
+
 # [@threequackinn/client-common-v1.5.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.4.1...@threequackinn/client-common-v1.5.0) (2021-05-02)
 
 
