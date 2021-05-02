@@ -33,5 +33,6 @@ jobs:
                   aws-region: eu-west-2
             - name: Sync to S3
               run: aws s3 sync ./packages/client/landing/out s3://${{ secrets.S3_BUCKET }}
+              run: aws s3 sync ./packages/client/landing/out/conjure-animals.html s3://${{ secrets.S3_BUCKET }}/conjure-animals
             - name: Invalidate cache
               run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ID }} --paths "/*"
