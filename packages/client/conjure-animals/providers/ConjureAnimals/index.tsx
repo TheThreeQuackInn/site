@@ -88,7 +88,7 @@ export function ConjureAnimalsProvider({children}: Props) {
                 setFormData(formData);
             }
         }
-    }, [loading]);
+    }, [loading, data]);
 
     return (
         <ConjureAnimalsContext.Provider value={{animals, getAnimalData, formData, isLoading: loading}}>
