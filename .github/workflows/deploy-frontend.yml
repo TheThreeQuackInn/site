@@ -1,9 +1,7 @@
 name: Deploy frontend
 
 on:
-    repository_dispatch:
-        types:
-            - semantic-release
+    workflow_dispatch:
 
 jobs:
     build:
