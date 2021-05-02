@@ -7,7 +7,6 @@ import StatsSkills from './Skills';
 import StatsSpeed from './Speed';
 import StatsLanguages from './Languages';
 import StatsCR from './CR';
-import StatsTraits from './Traits';
 import StatsActions from './Actions';
 import {AnimalStats} from './stats';
 import StatsAlignment from './Alignment';
@@ -33,7 +32,6 @@ export default function ConjureAnimalsStats({animal}: Props) {
             <StatsSkills stats={stats} />
             <StatsLanguages stats={stats} />
             <StatsCR stats={stats} />
-            <StatsTraits stats={stats} />
             <StatsActions stats={stats} />
         </Card>
     ) : (

@@ -52,7 +52,7 @@ export default function ConjureAnimalsRolling({num, animalName}: Props) {
 
     return animalKeys.length ? (
         <Fragment>
-            <div className={classNames('flex flex-wrap', animalKeys.length ? '-mx-2' : '')}>
+            <div className={classNames('flex flex-wrap', '-mx-2')}>
                 {animalKeys.map((key, i) => (
                     <div key={key} className="w-1/2 px-2">
                         <Input

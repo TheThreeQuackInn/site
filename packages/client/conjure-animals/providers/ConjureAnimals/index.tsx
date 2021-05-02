@@ -63,9 +63,9 @@ function normalizeProficiencies(beast: Beast) {
 
     return beast.proficiencies
         .map((proficiency) => {
-            if (!proficiency?.proficiency?.name || !proficiency.value) return '';
-            const name = proficiency?.proficiency.name.split('Skill: ');
-            const skillName = name[name.length - 1];
+            if (!proficiency?.proficiency?.name || !proficiency?.value) return '';
+            const name = proficiency.proficiency.name.split('Skill: ') || '';
+            const skillName = name.length ? name[name.length - 1] : '';
             return `${skillName} +${proficiency.value}`;
         })
         .filter(Boolean);

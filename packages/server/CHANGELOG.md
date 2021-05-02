@@ -1,3 +1,25 @@
+# [@threequackinn/server-v1.2.14](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.13...@threequackinn/server-v1.2.14) (2021-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @nestjs/graphql to v7.10.3 ([c37e638](https://github.com/TheThreeQuackInn/site/commit/c37e638036b93970d1393b426eae56ed5144961e))
+
+# [@threequackinn/server-v1.2.13](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.12...@threequackinn/server-v1.2.13) (2021-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rxjs to v6.6.7 ([f3387a3](https://github.com/TheThreeQuackInn/site/commit/f3387a347bca988dc0bae990ebcf6029b9316f4b))
+
+# [@threequackinn/server-v1.2.12](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.11...@threequackinn/server-v1.2.12) (2021-04-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency apollo-server-express to v2.22.2 ([0fe1842](https://github.com/TheThreeQuackInn/site/commit/0fe1842ad793c5c497631a6baa447429f4890461))
+* **deps:** update dependency graphql-tools to v7.0.4 ([cbfb9f6](https://github.com/TheThreeQuackInn/site/commit/cbfb9f63cb1b9da3333def2fb60a4151c342f6c9))
+
 # [@threequackinn/server-v1.2.11](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/server-v1.2.10...@threequackinn/server-v1.2.11) (2021-04-06)
 
 
