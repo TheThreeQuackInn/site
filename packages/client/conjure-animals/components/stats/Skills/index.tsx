@@ -6,12 +6,13 @@ type Props = {
 };
 
 export default function StatsSkills({stats}: Props) {
-    const skills = stats.skill;
-    return skills ? (
+    return stats.proficiencies.length ? (
         <div className="flex">
             <span className="font-bold inline-block mr-1">Skills</span>
-            {Object.keys(skills).map((key) => (
-                <span className="inline-block mr-2" key={key}>{`${key} ${skills[key]}`}</span>
+            {stats.proficiencies.map((prof) => (
+                <span className="inline-block mr-2" key={prof}>
+                    {prof}
+                </span>
             ))}
         </div>
     ) : null;

@@ -4,6 +4,9 @@
     "description": "Helper for druids casting conjure animals",
     "license": "MIT",
     "private": true,
+    "scripts": {
+        "codegen:conjure-animals": "apollo client:codegen --target=typescript --config=./libs/graphql/apollo.config.js --addTypename ./libs/graphql/types.d.ts --outputFlat --useReadOnlyTypes"
+    },
     "release": {
         "branches": [
             "main"
@@ -23,5 +26,9 @@
             "@semantic-release/github"
         ],
         "success": []
+    },
+    "dependencies": {
+        "@apollo/client": "3.3.16",
+        "graphql": "15.5.0"
     }
 }
