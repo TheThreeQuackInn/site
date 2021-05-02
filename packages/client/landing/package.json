@@ -25,7 +25,7 @@
         "apollo": "2.32.11",
         "next-compose-plugins": "2.2.1",
         "next-plugin-custom-babel-config": "1.0.4",
-        "next-transpile-modules": "6.4.1",
+        "next-transpile-modules": "7.0.0",
         "postcss-preset-env": "6.7.0",
         "sass": "1.32.8"
     },
