@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.10.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.9.4...@threequackinn/landing-v1.10.0) (2021-05-02)
+
+
+### Features
+
+* **apollo:** add apollo to conjure-animals, remove 5e.tools ([ecada60](https://github.com/TheThreeQuackInn/site/commit/ecada60a692340dc3a7ac4b248e94293f7aa53ad))
+
 # [@threequackinn/landing-v1.9.4](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.9.3...@threequackinn/landing-v1.9.4) (2021-03-11)
 
 
