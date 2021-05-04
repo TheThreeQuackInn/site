@@ -12,7 +12,12 @@ export default function HomePage() {
 
     return (
         <Fragment>
-            <AppHead title="The Three Quack Inn" />
+            <AppHead title="The Three Quack Inn">
+                <meta
+                    name="description"
+                    content="The Three Quack Inn helps Gamemasters and players with tools which they can use in their games playing the fifth edition of the greatest role playing game"
+                />
+            </AppHead>
             <Hero />
             <Container className="pt-20 pb-10 flex-col text-center">
                 <h2 className="tracking-tight leading-10 font-extrabold dark:text-white text-gray-900 text-2xl sm:leading-none md:text-4xl mb-4">
