@@ -1,6 +1,6 @@
 {
     "name": "@threequackinn/landing",
-    "version": "1.10.1",
+    "version": "1.10.2",
     "private": true,
     "scripts": {
         "build": "next build && next export",

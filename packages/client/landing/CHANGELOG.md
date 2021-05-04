@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.10.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.10.1...@threequackinn/landing-v1.10.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update next-transpile-modules and remove server package ([ae99cdd](https://github.com/TheThreeQuackInn/site/commit/ae99cdd5b3bd93986871f08217a9d6b3904e269d))
+
 # [@threequackinn/landing-v1.10.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.10.0...@threequackinn/landing-v1.10.1) (2021-05-02)
 
 
