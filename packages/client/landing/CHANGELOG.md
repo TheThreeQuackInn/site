@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.10.3](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.10.2...@threequackinn/landing-v1.10.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* **home:** update description ([164427c](https://github.com/TheThreeQuackInn/site/commit/164427cbbb033f4716d1e1e36e9a01aa6e7ef47d))
+
 # [@threequackinn/landing-v1.10.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.10.1...@threequackinn/landing-v1.10.2) (2021-05-04)
 
 
