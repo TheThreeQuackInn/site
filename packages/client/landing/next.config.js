@@ -30,6 +30,10 @@ const plugins = [
     [withCustomWebpack],
 ];
 
-const config = {};
+const config = {
+    future: {
+        webpack5: true,
+    },
+};
 
 module.exports = withPlugins(plugins, config);
