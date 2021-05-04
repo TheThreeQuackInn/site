@@ -1,3 +1,10 @@
+# [@threequackinn/landing-v1.11.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.10.3...@threequackinn/landing-v1.11.0) (2021-05-04)
+
+
+### Features
+
+* **sitemap:** generate sitemap postbuild ([eb89724](https://github.com/TheThreeQuackInn/site/commit/eb89724e7cd05a235a9747e2876ac40e6103f789))
+
 # [@threequackinn/landing-v1.10.3](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.10.2...@threequackinn/landing-v1.10.3) (2021-05-04)
 
 
