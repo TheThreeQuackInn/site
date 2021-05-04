@@ -14,11 +14,9 @@
     },
     "scripts": {
         "semantic-release": "lerna exec --concurrency 1 \"yarn semantic-release -e semantic-release-monorepo\"",
-        "start:server": "cd packages/server && docker-compose up",
         "start:client": "yarn workspace @threequackinn/landing dev",
         "test": "jest",
         "test:client": "jest packages/client --runInBand",
-        "test:server": "jest packages/server --runInBand",
         "build:client": "yarn workspace @threequackinn/landing build",
         "codegen:conjure-animals": "yarn workspace @threequackinn/conjure-animals codegen"
     },
