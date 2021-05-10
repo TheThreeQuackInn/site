@@ -1,3 +1,10 @@
+# @threequackinn/frontend-container-v1.0.0 (2021-05-10)
+
+
+### Features
+
+* **monorepo:** move landing package to applications ([277251a](https://github.com/TheThreeQuackInn/site/commit/277251aa5672ea49253058a45830a76420859c53))
+
 # [@threequackinn/landing-v1.11.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/landing-v1.10.3...@threequackinn/landing-v1.11.0) (2021-05-04)
 
 
