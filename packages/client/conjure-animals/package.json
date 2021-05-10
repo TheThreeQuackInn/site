@@ -7,26 +7,6 @@
     "scripts": {
         "codegen:conjure-animals": "apollo client:codegen --target=typescript --config=./libs/graphql/apollo.config.js --addTypename ./libs/graphql/types.d.ts --outputFlat --useReadOnlyTypes"
     },
-    "release": {
-        "branches": [
-            "main"
-        ],
-        "verifyConditions": [
-            "@semantic-release/github"
-        ],
-        "prepare": [
-            "@semantic-release/changelog",
-            "@semantic-release/npm",
-            {
-                "path": "@semantic-release/git",
-                "message": "chore(release): @threequackinn/conjure-animals v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-            }
-        ],
-        "publish": [
-            "@semantic-release/github"
-        ],
-        "success": []
-    },
     "dependencies": {
         "@apollo/client": "3.3.16",
         "graphql": "15.5.0"

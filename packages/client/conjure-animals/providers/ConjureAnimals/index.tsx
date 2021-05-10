@@ -1,5 +1,5 @@
 import React, {createContext, ReactNode, useEffect, useState} from 'react';
-import {useQuery} from '@apollo/client';
+import {ApolloError, useQuery} from '@apollo/client';
 import slugify from '../../libs/slugify';
 import {Monsters, Monsters_monsters as Beast} from '../../libs/graphql/types';
 import {AnimalStats} from '../../components/stats/stats';
@@ -10,6 +10,7 @@ export const ConjureAnimalsContext = createContext<Context>({
     getAnimalData: (_: string) => undefined,
     formData: [],
     isLoading: true,
+    error: undefined,
 });
 
 type Props = {
@@ -21,6 +22,7 @@ type Context = {
     getAnimalData: (animalName: string) => AnimalStats | undefined;
     formData: Array<{label: string; value: string}>;
     isLoading: boolean;
+    error: ApolloError | undefined;
 };
 
 type FormData = Array<{label: string; value: string}>;
@@ -72,7 +74,7 @@ function normalizeProficiencies(beast: Beast) {
 }
 
 export function ConjureAnimalsProvider({children}: Props) {
-    const {data, loading} = useQuery<Monsters>(GET_BEASTS_QUERY);
+    const {data, loading, error} = useQuery<Monsters>(GET_BEASTS_QUERY);
     const [animals, setAnimals] = useState<{[key: string]: AnimalStats}>({});
     const [formData, setFormData] = useState<FormData>([]);
 
@@ -88,10 +90,10 @@ export function ConjureAnimalsProvider({children}: Props) {
                 setFormData(formData);
             }
         }
-    }, [loading, data]);
+    }, [loading, data, error]);
 
     return (
-        <ConjureAnimalsContext.Provider value={{animals, getAnimalData, formData, isLoading: loading}}>
+        <ConjureAnimalsContext.Provider value={{animals, getAnimalData, formData, isLoading: loading, error}}>
             {children}
         </ConjureAnimalsContext.Provider>
     );

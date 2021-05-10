@@ -19,7 +19,7 @@ type Props = {
 };
 
 export default function ConjureAnimalsStats({animal}: Props) {
-    const {animals} = useConjureAnimals();
+    const {animals, error} = useConjureAnimals();
     const stats = animals[animal];
 
     return stats && Object.keys(stats).length ? (
@@ -35,8 +35,17 @@ export default function ConjureAnimalsStats({animal}: Props) {
             <StatsActions stats={stats} />
         </Card>
     ) : (
-        <Card className="flex flex-wrap md:mr-10 mt-5 w-full md:w-1/2" title="No stats found">
-            <span>No stats were found for this beast. Select a new one from the list.</span>
+        <Card
+            className="flex flex-wrap md:mr-10 mt-5 w-full md:w-1/2"
+            title={error ? 'Something went wrong' : 'No stats found'}
+        >
+            {error ? (
+                <span>
+                    Something went wrong while communicating with the server. Please try again in a few minutes.
+                </span>
+            ) : (
+                <span>No stats were found for this beast. Select a new one from the list.</span>
+            )}
         </Card>
     );
 }
