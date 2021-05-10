@@ -21,7 +21,7 @@
     "devDependencies": {
         "@axe-core/react": "4.1.1",
         "@babel/preset-typescript": "7.13.0",
-        "@types/react": "17.0.4",
+        "@types/react": "17.0.5",
         "@types/react-dom": "17.0.3",
         "apollo": "2.32.11",
         "next-compose-plugins": "2.2.1",
