@@ -1,5 +1,5 @@
 {
-    "name": "@threequackinn/landing",
+    "name": "@threequackinn/frontend-container",
     "version": "1.11.0",
     "private": true,
     "scripts": {
@@ -42,25 +42,5 @@
             "pre-commit": "lint-staged",
             "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
         }
-    },
-    "release": {
-        "branches": [
-            "main"
-        ],
-        "verifyConditions": [
-            "@semantic-release/github"
-        ],
-        "prepare": [
-            "@semantic-release/changelog",
-            "@semantic-release/npm",
-            {
-                "path": "@semantic-release/git",
-                "message": "chore(release): @threequackinn/landing v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-            }
-        ],
-        "publish": [
-            "@semantic-release/github"
-        ],
-        "success": []
     }
 }

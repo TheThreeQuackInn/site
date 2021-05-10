@@ -1,0 +1,14 @@
+{
+    "extends": "../../tsconfig.json",
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "jsx": "preserve",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "baseUrl": "./",
+        "paths": {
+            "@threequackinn/client-common": ["../../packages/client-common"],
+            "@threequackinn/conjure-animals": ["../../packages/conjure-animals"]
+        }
+    }
+}

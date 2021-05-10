@@ -2,9 +2,9 @@ import NextJSLink from 'next/link';
 import React, {Fragment} from 'react';
 import Container from '@threequackinn/client-common/components/container';
 import Separator from '@threequackinn/client-common/components/seperator';
+import {linkClassName} from '@threequackinn/client-common/components/link';
 import AppHead from '../components/head';
 import Hero from '../components/hero';
-import {linkClassName} from '../../common/components/link';
 import useTheme from '../hooks/theme';
 
 export default function HomePage() {

@@ -1,7 +1,7 @@
 import React, {useState, ChangeEvent, Fragment, useEffect} from 'react';
 import Card from '@threequackinn/client-common/components/card';
 import Link from '@threequackinn/client-common/components/link';
-import Loader from '@threequackinn/landing/components/loader';
+import Loader from '@threequackinn/frontend-container/components/loader';
 import ConjureAnimalsForm from '../form';
 import ConjureAnimalsRolling from '../rolling';
 import ConjureAnimalsStats from '../stats';
