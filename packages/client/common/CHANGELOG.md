@@ -1,3 +1,10 @@
+# [@threequackinn/client-common-v1.6.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.5.1...@threequackinn/client-common-v1.6.0) (2021-05-10)
+
+
+### Features
+
+* **monorepo:** move landing package to applications ([277251a](https://github.com/TheThreeQuackInn/site/commit/277251aa5672ea49253058a45830a76420859c53))
+
 # [@threequackinn/client-common-v1.5.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.5.0...@threequackinn/client-common-v1.5.1) (2021-05-02)
 
 
