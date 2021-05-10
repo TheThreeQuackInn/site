@@ -1,3 +1,10 @@
+# [@threequackinn/conjure-animals-v1.5.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.4.0...@threequackinn/conjure-animals-v1.5.0) (2021-05-10)
+
+
+### Features
+
+* **monorepo:** move landing package to applications ([277251a](https://github.com/TheThreeQuackInn/site/commit/277251aa5672ea49253058a45830a76420859c53))
+
 # [@threequackinn/conjure-animals-v1.4.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.3.1...@threequackinn/conjure-animals-v1.4.0) (2021-05-02)
 
 
