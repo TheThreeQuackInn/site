@@ -23,7 +23,7 @@
         "@babel/preset-typescript": "7.13.0",
         "@types/react": "17.0.5",
         "@types/react-dom": "17.0.3",
-        "apollo": "2.32.11",
+        "apollo": "2.33.2",
         "next-compose-plugins": "2.2.1",
         "next-plugin-custom-babel-config": "1.0.4",
         "next-sitemap": "1.6.34",
