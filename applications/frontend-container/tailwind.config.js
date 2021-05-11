@@ -7,7 +7,7 @@ module.exports = {
         purgeLayersByDefault: true,
     },
     purge: {
-        content: ['../**/*.tsx'],
+        content: ['../../packages/client/**/*.tsx', './**/*.tsx'],
     },
     theme: {
         extend: {},
