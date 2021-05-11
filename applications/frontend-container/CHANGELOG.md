@@ -1,3 +1,10 @@
+# [@threequackinn/frontend-container-v1.0.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/frontend-container-v1.0.0...@threequackinn/frontend-container-v1.0.1) (2021-05-11)
+
+
+### Bug Fixes
+
+* **tailwind:** update tailwind purge paths ([a8a7d46](https://github.com/TheThreeQuackInn/site/commit/a8a7d46ae26f379bd9a10c622cb2d241859ad9bb))
+
 # @threequackinn/frontend-container-v1.0.0 (2021-05-10)
 
 
