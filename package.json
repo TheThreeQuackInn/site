@@ -58,26 +58,6 @@
             "path": "./node_modules/cz-conventional-changelog"
         }
     },
-    "release": {
-        "branches": [
-            "main"
-        ],
-        "verifyConditions": [
-            "@semantic-release/github"
-        ],
-        "prepare": [
-            "@semantic-release/changelog",
-            "@semantic-release/npm",
-            {
-                "path": "@semantic-release/git",
-                "message": "chore(release): monorepo v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-            }
-        ],
-        "publish": [
-            "@semantic-release/github"
-        ],
-        "success": []
-    },
     "resolutions": {
         "mem": "8.1.1",
         "node-fetch": "2.6.1",

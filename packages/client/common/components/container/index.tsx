@@ -1,11 +1,13 @@
-import React, {ReactNode} from 'react';
+import React, {ReactNode, forwardRef} from 'react';
 import classNames from 'classnames';
 
 type Props = {
-    children: ReactNode;
+    children?: ReactNode;
     className?: string;
 };
 
-export default function Container({children, className}: Props) {
-    return <div className={classNames('container mx-auto flex', className)}>{children}</div>;
-}
+export default forwardRef((props: Props, ref: any) => (
+    <div ref={ref} className={classNames('container mx-auto flex dark:text-gray-100 text-gray-900', props.className)}>
+        {props.children}
+    </div>
+));

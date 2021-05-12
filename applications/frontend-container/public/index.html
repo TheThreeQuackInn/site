@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>The Three Quack Inn</title>
+        <meta
+            name="description"
+            content="The Three Quack Inn helps Gamemasters and players with tools which they can use in their games playing the fifth edition of the greatest role playing game"
+        />
+    </head>
+    <body className="dark:bg-gray-900 bg-gray-100 text-gray-900 dark:text-gray-100">
+        <noscript>Javascript is needed to make this app work properly.</noscript>
+        <script>
+            (function () {
+                function getThemePreference() {
+                    if ('undefined' == typeof window) return null;
+                    var e = localStorage.getItem('theme');
+                    if (e && ['light', 'dark'].includes(e)) return e;
+                    var t = window.matchMedia('(prefers-color-scheme: dark)');
+                    return 'not all' === t.media ? 'light' : t.matches ? 'dark' : 'light';
+                }
+                var colorMode = getThemePreference(),
+                    root = document.documentElement;
+                root.setAttribute('class', colorMode);
+            })();
+        </script>
+        <div id="root"></div>
+    </body>
+</html>

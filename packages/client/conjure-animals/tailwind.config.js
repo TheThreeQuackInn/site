@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
-const baseConfig = require('@threequackinn/client-common/tailwind.config.js');
+const baseConfig = require(path.join('../common/tailwind.config.js'));
 
 module.exports = {
     ...baseConfig,

@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://thethreequackinn.com
-
-# Sitemaps
-Sitemap: https://thethreequackinn.com/sitemap.xml
