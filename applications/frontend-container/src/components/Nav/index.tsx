@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import ThemeSwitch from '../ThemeSwitch';
 import navStructure from './structure.json';
 import TopLevelNavItem from './TopLevel';
+import './nav.scss';
 
 export default function Nav() {
     return (

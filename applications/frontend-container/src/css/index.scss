@@ -1,0 +1,30 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.button-gradient {
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+
+    &:hover,
+    &:focus {
+        background: linear-gradient(45deg, #11998e 20%, #38ef7d);
+    }
+}
+
+.link {
+    background-image: linear-gradient(45deg, #11998e, #38ef7d);
+    color: transparent;
+    background-clip: text;
+
+    &:hover,
+    &:focus {
+        -webkit-text-fill-color: #11998e;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .container {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}

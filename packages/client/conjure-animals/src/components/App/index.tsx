@@ -1,8 +1,8 @@
-import React from 'react';
 import {ApolloProvider} from '@apollo/client';
 import ConjureAnimalsApp from './Inner';
 import {ConjureAnimalsProvider} from '../../providers/ConjureAnimals';
 import client from '../../libs/graphql/apolloClient';
+import '../../css/index.scss';
 
 export default function ConjureAnimals() {
     return (

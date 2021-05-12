@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const packageJson = require('../package.json');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {ModuleFederationPlugin} = require('webpack').container;
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const tailwindcss = require('tailwindcss');
+const path = require('path');
 
 module.exports = {
     resolve: {
@@ -23,15 +24,13 @@ module.exports = {
             {
                 test: /\.scss$/i,
                 use: [
-                    {
-                        loader: MiniCssExtractPlugin.loader,
-                    },
+                    {loader: MiniCssExtractPlugin.loader},
                     'css-loader',
                     {
                         loader: 'postcss-loader',
                         options: {
                             postcssOptions: {
-                                plugins: ['postcss-preset-env'],
+                                config: path.join(__dirname, '../../common/postcss.config.js'),
                             },
                         },
                     },
@@ -41,7 +40,6 @@ module.exports = {
         ],
     },
     plugins: [
-        new HtmlWebpackPlugin({template: './public/index.html'}),
         new MiniCssExtractPlugin({
             filename: 'conjure-animals.[contenthash].css',
             chunkFilename: '[id].[contenthash].css',
@@ -55,9 +53,6 @@ module.exports = {
             shared: {
                 ...packageJson.dependencies,
                 react: {
-                    singleton: true,
-                },
-                'react-dom': {
                     singleton: true,
                 },
             },

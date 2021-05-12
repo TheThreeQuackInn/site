@@ -4,10 +4,12 @@ import {createBrowserHistory} from 'history';
 import ThemeProvider from '../providers/Theme';
 import Nav from '../Nav';
 import Loader from '@threequackinn/client-common/components/loader';
+import '../../css/index.scss';
 
 const history = createBrowserHistory();
 
 const ConjureAnimalsApp = lazy(() => import('../../pages/ConjureAnimals'));
+const Home = lazy(() => import('../../pages/Home'));
 
 export default function App() {
     return (
@@ -18,7 +20,10 @@ export default function App() {
                     <main id="main">
                         <Suspense fallback={<Loader className="flex-1 text-center my-10" />}>
                             <Switch>
-                                <Route path="/conjure-animals" exact={true}>
+                                <Route path="/" exact={true}>
+                                    <Home />
+                                </Route>
+                                <Route path="/conjure-animals">
                                     <ConjureAnimalsApp />
                                 </Route>
                             </Switch>

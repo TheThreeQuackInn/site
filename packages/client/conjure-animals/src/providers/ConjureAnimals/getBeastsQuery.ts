@@ -2,7 +2,7 @@ import {gql} from '@apollo/client';
 
 export default gql`
     query Monsters {
-        monsters(filter: {type: "beast"}) {
+        monsters(filter: {type: "beast"}, sort: _ID_ASC) {
             alignment
             ac: armor_class
             actions {

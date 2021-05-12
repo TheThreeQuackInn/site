@@ -2,8 +2,9 @@ import React, {useRef, useEffect} from 'react';
 import {useHistory} from 'react-router-dom';
 // @ts-ignore
 import {mount} from 'conjureanimals/App';
+import Container from '@threequackinn/client-common/components/container';
 
-export default function MarketingApp() {
+export default function ConjureAnimalsApp() {
     const ref = useRef(null);
     const history = useHistory();
 
@@ -18,5 +19,5 @@ export default function MarketingApp() {
         history.listen(onParentNavigate);
     }, []);
 
-    return <div ref={ref} />;
+    return <Container ref={ref} />;
 }

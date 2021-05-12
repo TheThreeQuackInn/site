@@ -5,13 +5,15 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "codegen:conjure-animals": "apollo client:codegen --target=typescript --config=./libs/graphql/apollo.config.js --addTypename ./libs/graphql/types.d.ts --outputFlat --useReadOnlyTypes",
+        "build": "NODE_ENV=production webpack --config config/webpack.prod.js",
+        "codegen": "apollo client:codegen --target=typescript --config=./libs/graphql/apollo.config.js --addTypename ./libs/graphql/types.d.ts --outputFlat --useReadOnlyTypes",
         "dev": "webpack serve --config config/webpack.dev.js"
     },
     "dependencies": {
         "@apollo/client": "3.3.16",
+        "@threequackinn/client-common": "*",
         "graphql": "15.5.0",
-        "webpack-merge": "5.7.3"
+        "react": "17.0.2"
     },
     "devDependencies": {
         "@babel/preset-env": "7.14.1",
@@ -19,12 +21,15 @@
         "@babel/preset-typescript": "7.13.0",
         "babel-loader": "8.2.2",
         "css-loader": "5.2.4",
+        "css-minimizer-webpack-plugin": "3.0.0",
         "html-webpack-plugin": "5.3.1",
         "mini-css-extract-plugin": "1.6.0",
         "postcss": "8.2.15",
         "postcss-loader": "5.2.0",
         "postcss-preset-env": "6.7.0",
+        "sass": "1.32.12",
         "sass-loader": "11.1.0",
+        "tailwindcss": "2.1.2",
         "ts-loader": "9.1.2"
     }
 }

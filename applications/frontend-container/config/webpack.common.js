@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require('path');
 
 module.exports = {
     resolve: {
@@ -18,25 +19,39 @@ module.exports = {
                 exclude: /node_modules/,
                 use: ['ts-loader'],
             },
-            {test: /\.(png|jpe?g|gif)$/i, loader: 'file-loader'},
             {
                 test: /\.scss$/i,
                 use: [
-                    {
-                        loader: MiniCssExtractPlugin.loader,
-                    },
+                    {loader: MiniCssExtractPlugin.loader},
                     'css-loader',
                     {
                         loader: 'postcss-loader',
                         options: {
                             postcssOptions: {
-                                plugins: ['postcss-preset-env'],
+                                config: path.join(__dirname, '../../../packages/client/common/postcss.config.js'),
                             },
                         },
                     },
                     'sass-loader',
                 ],
             },
+            {
+                include: path.resolve(__dirname, '../src'),
+                test: /\.css$/i,
+                use: [
+                    {loader: MiniCssExtractPlugin.loader},
+                    'css-loader',
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            postcssOptions: {
+                                config: path.join(__dirname, '../../../packages/client/common/postcss.config.js'),
+                            },
+                        },
+                    },
+                ],
+            },
+            {test: /\.(png|jpe?g|gif|svg)$/i, loader: 'file-loader'},
         ],
     },
     plugins: [
