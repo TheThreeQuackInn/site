@@ -1,3 +1,10 @@
+# [@threequackinn/conjure-animals-v1.5.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.5.0...@threequackinn/conjure-animals-v1.5.1) (2021-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update apollo and devdeps, update codegen conjure animals ([bf85987](https://github.com/TheThreeQuackInn/site/commit/bf85987950e1dd8af71f7da87578acf1dbb2aa1e))
+
 # [@threequackinn/conjure-animals-v1.5.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.4.0...@threequackinn/conjure-animals-v1.5.0) (2021-05-10)
 
 
