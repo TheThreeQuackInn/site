@@ -17,8 +17,7 @@
         "start:client": "yarn workspace @threequackinn/frontend-container dev",
         "test": "jest",
         "test:client": "jest packages/client --runInBand",
-        "build:client": "yarn workspace @threequackinn/frontend-container build",
-        "codegen:conjure-animals": "yarn workspace @threequackinn/conjure-animals codegen"
+        "build:client": "yarn workspace @threequackinn/frontend-container build"
     },
     "devDependencies": {
         "@semantic-release/changelog": "5.0.1",

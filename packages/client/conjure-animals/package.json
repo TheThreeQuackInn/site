@@ -5,10 +5,10 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "codegen:conjure-animals": "apollo client:codegen --target=typescript --config=./libs/graphql/apollo.config.js --addTypename ./libs/graphql/types.d.ts --outputFlat --useReadOnlyTypes"
+        "codegen": "apollo client:codegen --target=typescript --config=./libs/graphql/apollo.config.js --addTypename ./libs/graphql/types.d.ts --outputFlat --useReadOnlyTypes"
     },
     "dependencies": {
-        "@apollo/client": "3.3.16",
+        "@apollo/client": "3.3.17",
         "graphql": "15.5.0"
     }
 }
