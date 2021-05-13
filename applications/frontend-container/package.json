@@ -11,25 +11,25 @@
     "dependencies": {
         "@threequackinn/client-common": "*",
         "@threequackinn/conjure-animals": "*",
-        "autoprefixer": "10.2.5",
         "next": "10.2.0",
-        "postcss": "8.2.8",
         "react": "17.0.2",
-        "react-dom": "17.0.2",
-        "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+        "react-dom": "17.0.2"
     },
     "devDependencies": {
         "@axe-core/react": "4.1.1",
         "@babel/preset-typescript": "7.13.0",
         "@types/react": "17.0.5",
         "@types/react-dom": "17.0.3",
-        "apollo": "2.32.11",
+        "apollo": "2.33.2",
+        "autoprefixer": "10.2.5",
         "next-compose-plugins": "2.2.1",
         "next-plugin-custom-babel-config": "1.0.4",
         "next-sitemap": "1.6.34",
         "next-transpile-modules": "7.0.0",
+        "postcss": "8.2.15",
         "postcss-preset-env": "6.7.0",
-        "sass": "1.32.12"
+        "sass": "1.32.12",
+        "tailwindcss": "2.1.2"
     },
     "lint-staged": {
         "*.{ts,tsx}": [
