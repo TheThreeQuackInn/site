@@ -1,3 +1,10 @@
+# [@threequackinn/frontend-container-v1.0.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/frontend-container-v1.0.1...@threequackinn/frontend-container-v1.0.2) (2021-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update apollo and devdeps, update codegen conjure animals ([bf85987](https://github.com/TheThreeQuackInn/site/commit/bf85987950e1dd8af71f7da87578acf1dbb2aa1e))
+
 # [@threequackinn/frontend-container-v1.0.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/frontend-container-v1.0.0...@threequackinn/frontend-container-v1.0.1) (2021-05-11)
 
 
