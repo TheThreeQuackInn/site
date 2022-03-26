@@ -13,7 +13,7 @@ jobs:
               with:
                   token: ${{secrets.GH_TOKEN_SEMANTIC_RELEASE}}
                   persist-credentials: false
-            - uses: actions/setup-node@v2
+            - uses: actions/setup-node@v3
               with:
                   node-version: 12.x
             - name: Get yarn cache
