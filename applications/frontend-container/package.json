@@ -27,7 +27,7 @@
         "next-sitemap": "1.6.57",
         "next-transpile-modules": "7.0.0",
         "postcss": "8.2.15",
-        "postcss-preset-env": "6.7.0",
+        "postcss-preset-env": "6.7.1",
         "sass": "1.32.12",
         "tailwindcss": "2.1.2"
     },
