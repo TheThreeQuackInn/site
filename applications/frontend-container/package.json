@@ -23,7 +23,7 @@
         "apollo": "2.33.2",
         "autoprefixer": "10.2.5",
         "next-compose-plugins": "2.2.1",
-        "next-plugin-custom-babel-config": "1.0.4",
+        "next-plugin-custom-babel-config": "1.0.5",
         "next-sitemap": "1.6.57",
         "next-transpile-modules": "7.0.0",
         "postcss": "8.2.15",
