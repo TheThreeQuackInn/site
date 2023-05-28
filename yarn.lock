@@ -64,12 +64,12 @@
   dependencies:
     "@apollographql/graphql-language-service-types" "^2.0.0"
 
-"@axe-core/react@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@axe-core/react/-/react-4.1.1.tgz#0737cf723ab8d93b508540d0392c62b6945d1e39"
-  integrity sha512-XwhMezqRw5/pEXMW4P19RCA/jx4ZBD4ZLdOoU6i9GWX1i0UlWF2apUZiiE6IrbIx9U4NppsiWij8O1Wu6TU5wQ==
+"@axe-core/react@4.7.1":
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/@axe-core/react/-/react-4.7.1.tgz#74fa34d1243874e4b72b02bf7e0dc560118812a8"
+  integrity sha512-GBd3ju32h7kpGg/3iKgiBo8NuqOJE+sFWvSd62EvV98QDfYAVgPHWVvJ9Ofur3M99I7uU+6yfeJYF1/S3q6Psw==
   dependencies:
-    axe-core "^4.1.1"
+    axe-core "^4.7.0"
     requestidlecallback "^0.3.0"
 
 "@babel/code-frame@7.12.11":
@@ -3129,10 +3129,10 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axe-core@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.1.tgz#70a7855888e287f7add66002211a423937063eaf"
-  integrity sha512-5Kgy8Cz6LPC9DJcNb3yjAXTu3XihQgEdnIg50c//zOC/MyLP0Clg+Y8Sh9ZjjnvBrDZU4DgXS9C3T9r4/scGZQ==
+axe-core@^4.7.0:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.7.2.tgz#040a7342b20765cb18bb50b628394c21bccc17a0"
+  integrity sha512-zIURGIS1E1Q4pcrMjp+nnEh+16G56eG/MUllJH8yEvw7asDo7Ac9uhC9KIH5jzpITueEZolfYglnCGIuSBz39g==
 
 babel-jest@^26.6.3:
   version "26.6.3"
