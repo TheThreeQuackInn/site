@@ -2,9 +2,11 @@ import {gql} from '@apollo/client';
 
 export default gql`
     query Monsters {
-        monsters(filter: {type: "beast"}, sort: _ID_ASC) {
-            alignment
-            ac: armor_class
+        monsters(limit: 200, challenge_rating: [0.125, 0.25, 0.5, 1, 2, 3, 4, 5, 6]) {
+            armor_class {
+                value
+                type
+            }
             actions {
                 attack_bonus
                 desc
@@ -44,7 +46,6 @@ export default gql`
             strength
             subtype
             type
-            url
             wisdom
             xp
         }

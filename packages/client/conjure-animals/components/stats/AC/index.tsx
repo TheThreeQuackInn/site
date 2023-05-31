@@ -6,10 +6,13 @@ type Props = {
 };
 
 export default function StatsAC({stats}: Props) {
-    return stats.ac ? (
+    return stats.armor_class?.length ? (
         <p>
             <span className="font-bold mr-1">Armor Class</span>
-            {stats.ac}
+            {stats.armor_class
+                .filter(Boolean)
+                .map((ac) => `${ac?.value} ${ac?.type ? `(${ac.type})` : ''}`.trim())
+                .join(' ')}
         </p>
     ) : null;
 }

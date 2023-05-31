@@ -11,6 +11,9 @@ exports[`Card renders correctly 1`] = `
       className="font-bold text-xl mb-2 dark:text-white"
     >
       Testing
+      <span>
+        Subtitle
+      </span>
     </p>
     <div
       className="dark:text-white text-gray-700"

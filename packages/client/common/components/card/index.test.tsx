@@ -5,7 +5,7 @@ import Card from './';
 describe('Card', () => {
     it('renders correctly', () => {
         const component = create(
-            <Card title="Testing">
+            <Card title="Testing" subTitle={<span>Subtitle</span>}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante mauris, dapibus at
                     tristique non, hendrerit at diam. Curabitur volutpat, ipsum ac imperdiet tincidunt, felis ipsum
