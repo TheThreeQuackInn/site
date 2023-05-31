@@ -31,12 +31,15 @@ jobs:
                   aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
                   aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
                   aws-region: eu-west-2
-            - name: Sync to S3
-              run: |
-                  aws s3 rm s3://${{ secrets.S3_BUCKET }} --recursive
-                  aws s3 sync ./applications/frontend-container/out/_next/ s3://${{ secrets.S3_BUCKET }}_next/
-                  for file in $(find ./applications/frontend-container/out -name "*.html"); do mv "$file" "${file%%.html}"; done
-                  aws s3 sync --content-type "text/html" --metadata-directive REPLACE ./applications/frontend-container/out/ s3://${{ secrets.S3_BUCKET }} --exclude "*.jpg" --exclude "*.png" --exclude "*.jpeg" --exclude "_next/*" --exclude "*.svg"
-                  aws s3 sync ./applications/frontend-container/out/ s3://${{ secrets.S3_BUCKET }} --exclude "*.*" --include "*.jpg" --include "*.png" --include "*.jpeg" --include "*.svg"
+            - name: Remove old files
+              run: aws s3 rm s3://${{ secrets.S3_BUCKET }} --recursive
+            - name: Sync Next out dir
+              run: aws s3 sync ./applications/frontend-container/out/_next/ s3://${{ secrets.S3_BUCKET }}
+            - name: Rename .html files
+              run: for file in $(find ./applications/frontend-container/out -name "*.html"); do mv "$file" "${file%%.html}"; done
+            - name: Sync new html files
+              run: aws s3 sync --content-type "text/html" --metadata-directive REPLACE ./applications/frontend-container/out/ s3://${{ secrets.S3_BUCKET }} --exclude "*.jpg" --exclude "*.png" --exclude "*.jpeg" --exclude "_next/*" --exclude "*.svg"
+            - name: Sync rest of the files
+              run: aws s3 sync ./applications/frontend-container/out/ s3://${{ secrets.S3_BUCKET }} --exclude "*.*" --include "*.jpg" --include "*.png" --include "*.jpeg" --include "*.svg"
             - name: Invalidate cache
               run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ID }} --paths "/*"
