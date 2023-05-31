@@ -12,7 +12,6 @@ jobs:
             - uses: actions/checkout@v3
               with:
                   token: ${{secrets.GH_TOKEN_SEMANTIC_RELEASE}}
-                  persist-credentials: false
                   fetch-depth: 0
             - uses: actions/setup-node@v3
               with:
