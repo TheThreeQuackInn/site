@@ -1,3 +1,10 @@
+# [@threequackinn/client-common-v1.6.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.6.0...@threequackinn/client-common-v1.6.1) (2023-05-31)
+
+
+### Bug Fixes
+
+* **conjure-animals:** update dnd 5e api query ([#412](https://github.com/TheThreeQuackInn/site/issues/412)) ([c7bed61](https://github.com/TheThreeQuackInn/site/commit/c7bed61131f3b00c749ad0728cd430af3cd9ca8f))
+
 # [@threequackinn/client-common-v1.6.0](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/client-common-v1.5.1...@threequackinn/client-common-v1.6.0) (2021-05-10)
 
 
