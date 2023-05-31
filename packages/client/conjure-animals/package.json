@@ -5,7 +5,7 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "codegen": "apollo client:codegen --target=typescript --config=./libs/graphql/apollo.config.js --addTypename ./libs/graphql/types.d.ts --outputFlat --useReadOnlyTypes"
+        "codegen": "apollo client:codegen --target=typescript --config=./libs/graphql/apollo.config.js --addTypename ./libs/graphql/types.ts --outputFlat --useReadOnlyTypes"
     },
     "dependencies": {
         "@apollo/client": "3.3.17",

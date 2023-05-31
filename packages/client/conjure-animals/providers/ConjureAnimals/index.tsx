@@ -1,9 +1,9 @@
 import React, {createContext, ReactNode, useEffect, useState} from 'react';
 import {ApolloError, useQuery} from '@apollo/client';
 import slugify from '../../libs/slugify';
-import {Monsters, Monsters_monsters as Beast} from '../../libs/graphql/types';
 import {AnimalStats} from '../../components/stats/stats';
 import GET_BEASTS_QUERY from './getBeastsQuery';
+import {Monsters, Monsters_monsters as Beast, MonsterType} from '../../libs/graphql/types';
 
 export const ConjureAnimalsContext = createContext<Context>({
     animals: {},
@@ -33,7 +33,7 @@ function initAnimalData(beasts: ReadonlyArray<Beast>) {
 
     if (Array.isArray(beasts)) {
         beasts
-            .filter((beast: Beast) => beast.cr && beast.cr < 2)
+            .filter((beast: Beast) => beast.type && beast.type === MonsterType.BEAST)
             .forEach((beast: Beast) => {
                 const beastName = slugify(beast.name || '');
                 animals[beastName] = {

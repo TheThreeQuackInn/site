@@ -9,7 +9,6 @@ import StatsLanguages from './Languages';
 import StatsCR from './CR';
 import StatsActions from './Actions';
 import {AnimalStats} from './stats';
-import StatsAlignment from './Alignment';
 import useConjureAnimals from '../../hooks/useConjureAnimals';
 
 export type Animal = AnimalStats;
@@ -23,9 +22,7 @@ export default function ConjureAnimalsStats({animal}: Props) {
     const stats = animals[animal];
 
     return stats && Object.keys(stats).length ? (
-        <Card className="flex flex-wrap w-full" title={stats.name || ''}>
-            <StatsSize stats={stats} />
-            <StatsAlignment stats={stats} />
+        <Card className="flex flex-wrap w-full" title={stats.name || ''} subTitle={<StatsSize stats={stats} />}>
             <StatsAC stats={stats} />
             <StatsSpeed stats={stats} />
             <StatsAbilityScores stats={stats} />
