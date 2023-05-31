@@ -33,7 +33,10 @@ jobs:
                   aws-region: eu-west-2
             - name: Sync to S3
               run: |
-                  aws s3 sync ./applications/frontend-container/out s3://${{ secrets.S3_BUCKET }}
-                  aws s3 cp ./applications/frontend-container/out/conjure-animals.html s3://${{ secrets.S3_BUCKET }}/conjure-animals
+                  aws s3 rm s3://${{ secrets.S3_BUCKET }} --recursive
+                  aws s3 sync ./applications/frontend-container/out/_next/ s3://${{ secrets.S3_BUCKET }}_next/
+                  for file in $(find ./applications/frontend-container/out -name "*.html"); do mv "$file" "${file%%.html}"; done
+                  aws s3 sync --content-type "text/html" --metadata-directive REPLACE ./applications/frontend-container/out/ s3://${{ secrets.S3_BUCKET }} --exclude "*.jpg" --exclude "*.png" --exclude "*.jpeg" --exclude "_next/*" --exclude "*.svg"
+                  aws s3 sync ./applications/frontend-container/out/ s3://${{ secrets.S3_BUCKET }} --exclude "*.*" --include "*.jpg" --include "*.png" --include "*.jpeg" --include "*.svg"
             - name: Invalidate cache
               run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DISTRIBUTION_ID }} --paths "/*"
