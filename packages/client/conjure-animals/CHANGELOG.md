@@ -1,3 +1,10 @@
+# [@threequackinn/conjure-animals-v1.5.2](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.5.1...@threequackinn/conjure-animals-v1.5.2) (2023-05-31)
+
+
+### Bug Fixes
+
+* **conjure-animals:** update dnd 5e api query ([#412](https://github.com/TheThreeQuackInn/site/issues/412)) ([c7bed61](https://github.com/TheThreeQuackInn/site/commit/c7bed61131f3b00c749ad0728cd430af3cd9ca8f))
+
 # [@threequackinn/conjure-animals-v1.5.1](https://github.com/TheThreeQuackInn/site/compare/@threequackinn/conjure-animals-v1.5.0...@threequackinn/conjure-animals-v1.5.1) (2021-05-13)
 
 
