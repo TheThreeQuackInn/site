@@ -9,13 +9,14 @@ jobs:
         runs-on: ubuntu-latest
         if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
         steps:
-            - uses: actions/checkout@v2
+            - uses: actions/checkout@v3
               with:
                   token: ${{secrets.GH_TOKEN_SEMANTIC_RELEASE}}
                   persist-credentials: false
-            - uses: actions/setup-node@v2
+                  fetch-depth: 0
+            - uses: actions/setup-node@v3
               with:
-                  node-version: 12.x
+                  node-version: 16.14.0
             - name: Get yarn cache
               id: yarn-cache
               run: echo "::set-output name=dir::$(yarn cache dir)"
