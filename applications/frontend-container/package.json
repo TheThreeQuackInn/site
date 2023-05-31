@@ -12,14 +12,14 @@
         "@threequackinn/client-common": "*",
         "@threequackinn/conjure-animals": "*",
         "next": "10.2.0",
-        "react": "17.0.2",
-        "react-dom": "17.0.2"
+        "react": "18.2.0",
+        "react-dom": "18.2.0"
     },
     "devDependencies": {
         "@axe-core/react": "4.1.1",
         "@babel/preset-typescript": "7.13.0",
-        "@types/react": "17.0.5",
-        "@types/react-dom": "17.0.3",
+        "@types/react": "18.2.7",
+        "@types/react-dom": "18.2.4",
         "apollo": "2.33.2",
         "autoprefixer": "10.2.5",
         "next-compose-plugins": "2.2.1",
