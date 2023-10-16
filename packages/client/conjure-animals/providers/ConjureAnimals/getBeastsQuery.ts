@@ -2,7 +2,7 @@ import {gql} from '@apollo/client';
 
 export default gql`
     query Monsters {
-        monsters(limit: 200, challenge_rating: [0.125, 0.25, 0.5, 1, 2]) {
+        monsters(limit: 500, challenge_rating: {lte: 2}, order: {by: NAME}, type: BEAST) {
             armor_class {
                 value
                 type
