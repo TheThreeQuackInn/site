@@ -18,8 +18,8 @@
     "devDependencies": {
         "@axe-core/react": "4.1.1",
         "@babel/preset-typescript": "7.13.0",
-        "@types/react": "17.0.5",
-        "@types/react-dom": "17.0.3",
+        "@types/react": "17.0.85",
+        "@types/react-dom": "17.0.26",
         "apollo": "2.33.2",
         "autoprefixer": "10.2.5",
         "next-compose-plugins": "2.2.1",
